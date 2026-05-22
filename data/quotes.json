@@ -1,0 +1,29 @@
+{
+  "quotes": [
+    {"id": 1, "content": "人生真正的丰盈，不是拥有多少，而是内心始终留得住从容。", "enabled": true},
+    {"id": 2, "content": "每一个清晨，都是一次重新出发的机会。", "enabled": true},
+    {"id": 3, "content": "愿你眼里有光，心中有爱，脚下有路。", "enabled": true},
+    {"id": 4, "content": "生活不是等待暴风雨过去，而是学会在雨中起舞。", "enabled": true},
+    {"id": 5, "content": "温柔半两，从容一生。", "enabled": true},
+    {"id": 6, "content": "山高水长，怕什么来不及，慌什么到不了。", "enabled": true},
+    {"id": 7, "content": "时光会老，容颜不老，愿你被岁月温柔以待。", "enabled": true},
+    {"id": 8, "content": "心若向阳，无畏悲伤。", "enabled": true},
+    {"id": 9, "content": "最好的时光，是当下。", "enabled": true},
+    {"id": 10, "content": "愿你三冬暖，愿你春不寒。", "enabled": true},
+    {"id": 11, "content": "人生没有白走的路，每一步都算数。", "enabled": true},
+    {"id": 12, "content": "所有美好，都值得等待。", "enabled": true},
+    {"id": 13, "content": "愿你成为自己的太阳，无需凭借谁的光。", "enabled": true},
+    {"id": 14, "content": "生活明朗，万物可爱。", "enabled": true},
+    {"id": 15, "content": "愿你历尽千帆，归来仍是少年。", "enabled": true},
+    {"id": 16, "content": "把每一天都当作生命的最后一天来过。", "enabled": true},
+    {"id": 17, "content": "心有猛虎，细嗅蔷薇。", "enabled": true},
+    {"id": 18, "content": "愿你被这个世界温柔以待。", "enabled": true},
+    {"id": 19, "content": "岁月静好，现世安稳。", "enabled": true},
+    {"id": 20, "content": "愿你所有的努力都不被辜负。", "enabled": true}
+  ],
+  "metadata": {
+    "total_count": 20,
+    "last_updated": "2026-05-22",
+    "version": "1.0"
+  }
+}
