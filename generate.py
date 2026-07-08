@@ -8,9 +8,12 @@ import os
 import sys
 import json
 import random
+import base64
+import hashlib
 import requests
 from datetime import datetime
 from pathlib import Path
+from io import BytesIO
 
 from PIL import Image, ImageDraw, ImageFont, ImageFilter, ImageOps
 
@@ -36,8 +39,11 @@ FIXED_ELEMENTS = str(ASSETS_DIR / "fixed_elements.png")
 # 语录库
 QUOTES_FILE = str(BASE_DIR / "data" / "quotes.json")
 
-# Unsplash 关键词
-UNSPLASH_KEYWORDS = ["landscape", "nature", "scenery", "forest", "mountain", "ocean", "lake", "garden", "sunrise", "sunset"]
+# 企业微信 Webhook（消息推送机器人）
+WEWORK_WEBHOOK_URL = os.environ.get("WEWORK_WEBHOOK_URL", "https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=b7816aed-e2f1-4ae1-a391-09234b8ba782")
+
+# Unsplash 关键词 - 纯自然风景，避免城市建筑
+UNSPLASH_KEYWORDS = ["nature", "forest", "mountain", "ocean", "lake", "garden", "sunrise", "sunset", "meadow", "waterfall", "beach", "flowers", "trees", "river", "sky", "clouds"]
 
 # ============================================================
 # 语录库
@@ -67,13 +73,30 @@ DEFAULT_QUOTES = [
 
 
 def get_random_quote():
-    """获取随机语录"""
+    """获取随机语录，使用后删除"""
     if os.path.exists(QUOTES_FILE):
         with open(QUOTES_FILE, "r", encoding="utf-8") as f:
             data = json.load(f)
-            quotes = [q["content"] for q in data.get("quotes", []) if q.get("enabled", True)]
-            if quotes:
-                return random.choice(quotes)
+        
+        quotes = data.get("quotes", [])
+        enabled_quotes = [q for q in quotes if q.get("enabled", True)]
+        
+        if enabled_quotes:
+            # 随机选择一条
+            selected = random.choice(enabled_quotes)
+            selected_content = selected["content"]
+            
+            # 从列表中删除已使用的语录
+            data["quotes"] = [q for q in quotes if q["id"] != selected["id"]]
+            data["metadata"]["total_count"] = len(data["quotes"])
+            
+            # 保存更新后的语录库
+            with open(QUOTES_FILE, "w", encoding="utf-8") as f:
+                json.dump(data, f, ensure_ascii=False, indent=2)
+            
+            print(f"  语录已使用并删除，剩余 {len(data['quotes'])} 条")
+            return selected_content
+    
     return random.choice(DEFAULT_QUOTES)
 
 
@@ -98,7 +121,7 @@ def fetch_unsplash_image():
             params = {
                 "query": keyword,
                 "orientation": "portrait",
-                "client_id": "Wdi2qF7xGzJ9T6sJmFqBkG8r4XzLpNaHc3YvEwDkM0o"
+                "client_id": os.environ.get("UNSPLASH_ACCESS_KEY", "Wdi2qF7xGzJ9T6sJmFqBkG8r4XzLpNaHc3YvEwDkM0o")
             }
             resp = requests.get(api_url, params=params, timeout=15)
             
@@ -120,26 +143,16 @@ def fetch_unsplash_image():
         except Exception as e:
             print(f"  请求异常: {e}, 重试...")
         
-        # 备用方式1: 使用 Unsplash Source（风景图片，无需 API key）
+        # 备用方式1: 使用 Lorem Flickr（竖版风景图片）
         try:
-            source_url = f"https://source.unsplash.com/{OUTPUT_WIDTH}x{OUTPUT_HEIGHT}/?landscape,nature,scenery"
-            resp = requests.get(source_url, timeout=30, allow_redirects=True)
-            if resp.status_code == 200 and len(resp.content) > 10000:
-                img = Image.open(BytesIO(resp.content))
-                if is_grayscale(img):
-                    print(f"  图片为黑白，重新获取...")
-                    continue
-                print(f"  Unsplash Source 获取成功: {img.size}")
-                return img
-        except Exception as e:
-            print(f"  Unsplash Source 失败: {e}")
-        
-        # 备用方式2: 使用 Lorem Flickr（风景图片）
-        try:
-            flickr_url = f"https://loremflickr.com/{OUTPUT_WIDTH}/{OUTPUT_HEIGHT}/landscape,nature"
+            flickr_url = f"https://loremflickr.com/{OUTPUT_WIDTH}/{OUTPUT_HEIGHT}/landscape,nature/lock"
             resp = requests.get(flickr_url, timeout=30, allow_redirects=True)
             if resp.status_code == 200 and len(resp.content) > 5000:
                 img = Image.open(BytesIO(resp.content))
+                # 确保是竖版图片（高度 > 宽度）
+                if img.width >= img.height:
+                    print(f"  图片非竖版，重新获取...")
+                    continue
                 if is_grayscale(img):
                     print(f"  图片为黑白，重新获取...")
                     continue
@@ -147,6 +160,23 @@ def fetch_unsplash_image():
                 return img
         except Exception as e:
             print(f"  Lorem Flickr 失败: {e}")
+        
+        # 备用方式2: 使用 picsum.photos（随机图片，竖版）
+        try:
+            picsum_url = f"https://picsum.photos/{OUTPUT_WIDTH}/{OUTPUT_HEIGHT}"
+            resp = requests.get(picsum_url, timeout=30, allow_redirects=True)
+            if resp.status_code == 200 and len(resp.content) > 5000:
+                img = Image.open(BytesIO(resp.content))
+                if img.width >= img.height:
+                    print(f"  图片非竖版，重新获取...")
+                    continue
+                if is_grayscale(img):
+                    print(f"  图片为黑白，重新获取...")
+                    continue
+                print(f"  Picsum 获取成功: {img.size}")
+                return img
+        except Exception as e:
+            print(f"  Picsum 失败: {e}")
     
     # 所有尝试失败，使用纯色渐变背景
     print("  所有尝试失败，使用渐变背景")
@@ -198,34 +228,25 @@ def create_gradient_background():
 # ============================================================
 # 天气获取
 # ============================================================
-def fetch_weather():
-    """获取海口天气"""
+def fetch_weather(use_tomorrow=True):
+    """获取海口天气，默认获取明天预报"""
     try:
         # 使用 wttr.in 免费 API
         url = "https://wttr.in/Haikou?format=j1"
         resp = requests.get(url, timeout=10)
         if resp.status_code == 200:
             data = resp.json()
-            current = data["current_condition"][0]
-            temp_c = current["temp_C"]
-            # 尝试获取今日最高最低温
-            weather = data.get("weather", [])
-            if weather:
-                today = weather[0]
-                max_temp = today["maxtempC"]
-                min_temp = today["mintempC"]
+            weather_list = data.get("weather", [])
+            # weather[0]=今天, weather[1]=明天, weather[2]=后天
+            idx = 1 if (use_tomorrow and len(weather_list) > 1) else 0
+            target = weather_list[idx] if weather_list else None
+            if target:
                 return {
-                    "min_temp": min_temp,
-                    "max_temp": max_temp,
-                    "current_temp": temp_c,
-                    "desc": current.get("lang_zh", [{}])[0].get("value", current.get("weatherDesc", [{}])[0].get("value", ""))
+                    "min_temp": target["mintempC"],
+                    "max_temp": target["maxtempC"],
+                    "current_temp": data["current_condition"][0]["temp_C"],
+                    "desc": ""
                 }
-            return {
-                "min_temp": temp_c,
-                "max_temp": temp_c,
-                "current_temp": temp_c,
-                "desc": ""
-            }
     except Exception as e:
         print(f"天气获取失败: {e}")
     
@@ -403,24 +424,41 @@ def main():
     print("早安图生成 - 样图测试")
     print("=" * 50)
     
+    # 判断使用明天还是当天日期
+    use_tomorrow = "--today" not in sys.argv
+    now = datetime.now()
+    if use_tomorrow:
+        from datetime import timedelta
+    target_date = now + timedelta(days=1) if use_tomorrow else now
+
     # 1. 获取数据
     print("\n[1/4] 获取风景图片...")
     background = fetch_unsplash_image()
     
     print("\n[2/4] 获取天气数据...")
-    weather = fetch_weather()
+    weather = fetch_weather(use_tomorrow=use_tomorrow)
     print(f"  海口天气: {weather['min_temp']}°~{weather['max_temp']}°")
     
     print("\n[3/4] 选择早安语录...")
     quote = get_random_quote()
     print(f"  语录: {quote}")
     
+    # 支持命令行指定语录（换图不换文案）
+    if "--quote" in sys.argv:
+        idx = sys.argv.index("--quote") + 1
+        if idx < len(sys.argv):
+            quote = sys.argv[idx]
+            # 恢复语录库（因为 get_random_quote 会删除一条）
+            if os.path.exists(QUOTES_FILE + ".bak"):
+                import shutil
+                shutil.copy2(QUOTES_FILE + ".bak", QUOTES_FILE)
+            print(f"  使用指定语录: {quote}")
+    
     # 2. 获取日期信息
-    now = datetime.now()
     date_info = {
-        "year_month": now.strftime("%Y/%m"),
-        "day": now.strftime("%d"),
-        "week": get_weekday_chinese(now.weekday()),
+        "year_month": target_date.strftime("%Y/%m"),
+        "day": target_date.strftime("%d"),
+        "week": get_weekday_chinese(target_date.weekday()),
     }
     print(f"  日期: {date_info['year_month']} {date_info['day']} {date_info['week']}")
     
@@ -428,16 +466,42 @@ def main():
     print("\n[4/4] 生成早安图...")
     poster = generate_morning_poster(background, weather, quote, date_info)
     
-    # 4. 保存
-    output_dir = OUTPUT_DIR / now.strftime("%Y-%m-%d")
+    # 4. 保存（使用目标日期创建目录，文件名保留实际生成时间戳）
+    output_dir = OUTPUT_DIR / target_date.strftime("%Y-%m-%d")
     output_dir.mkdir(parents=True, exist_ok=True)
     output_path = output_dir / f"morning_{now.strftime('%Y%m%d_%H%M%S')}.jpg"
     poster.save(str(output_path), "JPEG", quality=95)
     
     print(f"\n✅ 早安图已保存: {output_path}")
+
+    # 5. 发送到企业微信群聊
+    if "--no-send" not in sys.argv:
+        print("\n[5/5] 发送到企业微信群聊...")
+        try:
+            with open(output_path, "rb") as f:
+                img_bytes = f.read()
+            img_b64 = base64.b64encode(img_bytes).decode("utf-8")
+            img_md5 = hashlib.md5(img_bytes).hexdigest()
+            payload = {
+                "msgtype": "image",
+                "image": {
+                    "base64": img_b64,
+                    "md5": img_md5
+                }
+            }
+            resp = requests.post(WEWORK_WEBHOOK_URL, json=payload, timeout=15)
+            result = resp.json()
+            if result.get("errcode") == 0:
+                print("  ✅ 已成功发送到企业微信群聊")
+            else:
+                print(f"  ❌ 发送失败: {result.get('errmsg', '未知错误')}")
+        except Exception as e:
+            print(f"  ❌ 发送异常: {e}")
+    else:
+        print("\n[5/5] 跳过企业微信发送（--no-send）")
+
     return str(output_path)
 
 
 if __name__ == "__main__":
-    from io import BytesIO
     main()

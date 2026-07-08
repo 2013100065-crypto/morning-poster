@@ -18,5 +18,16 @@ venv/
 .DS_Store
 Thumbs.db
 
-# Output (keep folder structure but ignore generated images)
-# Note: We want to commit generated images, so we don't ignore output/
+# 备份文件
+data/*.bak
+
+# 字体文件（通过 GitHub Release 管理，不入仓库）
+assets/fonts/
+
+# 生成图片不入仓库
+output/20*/
+output/*.jpg
+output/*.png
+
+# 保留 output 目录结构
+!output/.gitkeep

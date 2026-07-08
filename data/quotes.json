@@ -1,29 +1,199 @@
 {
   "quotes": [
-    {"id": 1, "content": "人生真正的丰盈，不是拥有多少，而是内心始终留得住从容。", "enabled": true},
-    {"id": 2, "content": "每一个清晨，都是一次重新出发的机会。", "enabled": true},
-    {"id": 3, "content": "愿你眼里有光，心中有爱，脚下有路。", "enabled": true},
-    {"id": 4, "content": "生活不是等待暴风雨过去，而是学会在雨中起舞。", "enabled": true},
-    {"id": 5, "content": "温柔半两，从容一生。", "enabled": true},
-    {"id": 6, "content": "山高水长，怕什么来不及，慌什么到不了。", "enabled": true},
-    {"id": 7, "content": "时光会老，容颜不老，愿你被岁月温柔以待。", "enabled": true},
-    {"id": 8, "content": "心若向阳，无畏悲伤。", "enabled": true},
-    {"id": 9, "content": "最好的时光，是当下。", "enabled": true},
-    {"id": 10, "content": "愿你三冬暖，愿你春不寒。", "enabled": true},
-    {"id": 11, "content": "人生没有白走的路，每一步都算数。", "enabled": true},
-    {"id": 12, "content": "所有美好，都值得等待。", "enabled": true},
-    {"id": 13, "content": "愿你成为自己的太阳，无需凭借谁的光。", "enabled": true},
-    {"id": 14, "content": "生活明朗，万物可爱。", "enabled": true},
-    {"id": 15, "content": "愿你历尽千帆，归来仍是少年。", "enabled": true},
-    {"id": 16, "content": "把每一天都当作生命的最后一天来过。", "enabled": true},
-    {"id": 17, "content": "心有猛虎，细嗅蔷薇。", "enabled": true},
-    {"id": 18, "content": "愿你被这个世界温柔以待。", "enabled": true},
-    {"id": 19, "content": "岁月静好，现世安稳。", "enabled": true},
-    {"id": 20, "content": "愿你所有的努力都不被辜负。", "enabled": true}
+    {
+      "id": 3,
+      "content": "天总会亮，路总会清，眼下看不清的地方，交给时间去照明。",
+      "enabled": true
+    },
+    {
+      "id": 4,
+      "content": "人生真正的丰盈，不是拥有多少，而是内心始终留得住从容。",
+      "enabled": true
+    },
+    {
+      "id": 5,
+      "content": "那些看似平淡无奇的日子，往往藏着后来最怀念的光。",
+      "enabled": true
+    },
+    {
+      "id": 6,
+      "content": "生活从来不会亏待认真赶路的人，只是它的答案，来得稍晚一些。",
+      "enabled": true
+    },
+    {
+      "id": 8,
+      "content": "时间会替你筛选掉不重要的人和事，也会留下最值得珍惜的部分。",
+      "enabled": true
+    },
+    {
+      "id": 9,
+      "content": "人这一生，不过是在经历里沉淀，在沉淀里慢慢成为自己。",
+      "enabled": true
+    },
+    {
+      "id": 10,
+      "content": "世界总有喧哗的时候，但一个人最好的状态，是心里始终安静。",
+      "enabled": true
+    },
+    {
+      "id": 12,
+      "content": "真正的答案，从来不在别人的嘴里，而在自己走过的路上。",
+      "enabled": true
+    },
+    {
+      "id": 14,
+      "content": "人生最难得的，不是事事如愿，而是始终保有向前的勇气。",
+      "enabled": true
+    },
+    {
+      "id": 15,
+      "content": "生活的褶皱里藏着光，只要愿意认真看，总会发现温柔的痕迹。",
+      "enabled": true
+    },
+    {
+      "id": 16,
+      "content": "岁月从不声张，却在无数个寻常日子里悄悄成全一个人。",
+      "enabled": true
+    },
+    {
+      "id": 17,
+      "content": "不是所有等待都会落空，有些迟来的抵达，反而更值得珍藏。",
+      "enabled": true
+    },
+    {
+      "id": 18,
+      "content": "真正的清醒，不是看透世界，而是看清之后依然热爱生活。",
+      "enabled": true
+    },
+    {
+      "id": 20,
+      "content": "不必羡慕别人的节奏，属于你的答案，会在合适的时候展开。",
+      "enabled": true
+    },
+    {
+      "id": 22,
+      "content": "山有山的高度，海有海的辽阔，人也该有自己的方向。",
+      "enabled": true
+    },
+    {
+      "id": 24,
+      "content": "人生的辽阔，不在远方，而在内心一点点被打开。",
+      "enabled": true
+    },
+    {
+      "id": 25,
+      "content": "与其着急看结果，不如认真种下今天的因。",
+      "enabled": true
+    },
+    {
+      "id": 26,
+      "content": "所有沉默的坚持，都会在未来某一天开出花来。",
+      "enabled": true
+    },
+    {
+      "id": 27,
+      "content": "日复一日的认真，本身就是一种了不起的答案。",
+      "enabled": true
+    },
+    {
+      "id": 28,
+      "content": "人终究会明白，最值得奔赴的，是更好的自己。",
+      "enabled": true
+    },
+    {
+      "id": 29,
+      "content": "真正能照亮一个人的，从来不是运气，而是清醒和笃定。",
+      "enabled": true
+    },
+    {
+      "id": 30,
+      "content": "世界很大，脚下很实，能走稳每一步，就是难得的本事。",
+      "enabled": true
+    },
+    {
+      "id": 32,
+      "content": "岁月会让浮躁的人散场，也会让沉静的人发光。",
+      "enabled": true
+    },
+    {
+      "id": 33,
+      "content": "每一个看似不起眼的清晨，都藏着重新开始的机会。",
+      "enabled": true
+    },
+    {
+      "id": 35,
+      "content": "人生不一定时时热烈，但一定可以处处认真。",
+      "enabled": true
+    },
+    {
+      "id": 36,
+      "content": "世界偶尔薄凉，但认真生活的人，总能遇见温暖。",
+      "enabled": true
+    },
+    {
+      "id": 37,
+      "content": "那些熬过去的时光，终会变成照亮来路的光。",
+      "enabled": true
+    },
+    {
+      "id": 38,
+      "content": "不慌着证明什么，时间会替你回答一切。",
+      "enabled": true
+    },
+    {
+      "id": 39,
+      "content": "真正的成长，是越来越能和生活和平相处。",
+      "enabled": true
+    },
+    {
+      "id": 40,
+      "content": "每一次安静的沉淀，都是为了下一次更好的盛放。",
+      "enabled": true
+    },
+    {
+      "id": 41,
+      "content": "有些风景，需要慢下来，才能真正看见。",
+      "enabled": true
+    },
+    {
+      "id": 42,
+      "content": "所有值得期待的未来，都始于认真过好今天。",
+      "enabled": true
+    },
+    {
+      "id": 43,
+      "content": "人这一生最好的底色，是清醒、笃定，还有一点温柔。",
+      "enabled": true
+    },
+    {
+      "id": 45,
+      "content": "不必着急成为谁，先成为让自己安心的人。",
+      "enabled": true
+    },
+    {
+      "id": 47,
+      "content": "所有看似平凡的坚持，最终都会变得意义非凡。",
+      "enabled": true
+    },
+    {
+      "id": 48,
+      "content": "生活从不会辜负耐心，它只是喜欢晚一点给惊喜。",
+      "enabled": true
+    },
+    {
+      "id": 49,
+      "content": "愿你走过世事起伏，依然保有热爱和分寸。",
+      "enabled": true
+    },
+    {
+      "id": 50,
+      "content": "新的一页已经展开，剩下的故事，值得认真去写。",
+      "enabled": true
+    }
   ],
   "metadata": {
-    "total_count": 20,
-    "last_updated": "2026-05-22",
-    "version": "1.0"
+    "total_count": 38,
+    "last_updated": "2026-06-01",
+    "version": "4.0"
   }
 }

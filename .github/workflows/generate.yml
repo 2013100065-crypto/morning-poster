@@ -2,9 +2,9 @@ name: 生成早安图
 
 on:
   schedule:
-    # 每天 UTC 16:01 运行（北京时间 00:01）
-    - cron: '1 16 * * *'
-  workflow_dispatch: # 支持手动触发
+    # UTC 10:00 = 北京时间 18:00
+    - cron: '0 10 * * *'
+  workflow_dispatch:
 
 jobs:
   generate:
@@ -13,11 +13,34 @@ jobs:
     steps:
     - name: 检出代码
       uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
 
     - name: 设置 Python
       uses: actions/setup-python@v5
       with:
         python-version: '3.11'
+        cache: 'pip'
+
+    - name: 缓存字体文件
+      uses: actions/cache@v4
+      with:
+        path: assets/fonts/
+        key: fonts-v1
+
+    - name: 下载字体（缓存未命中时）
+      if: steps.cache-fonts.outputs.cache-hit != 'true'
+      run: |
+        mkdir -p assets/fonts
+        # 从 GitHub Release 下载字体包
+        gh release download fonts --repo ${{ github.repository }} --dir assets/fonts/ --clobber 2>/dev/null || true
+        # 如果 Release 不存在，尝试从 latest release 下载
+        if [ ! -f "assets/fonts/DreamHanSerif-W13.ttc" ]; then
+          gh release download --repo ${{ github.repository }} --dir assets/fonts/ --clobber --pattern '*.ttc' --pattern '*.ttf' 2>/dev/null || echo "WARNING: 未找到字体 Release，将使用系统默认字体"
+        fi
+        ls -lh assets/fonts/ 2>/dev/null || echo "字体目录为空"
+      env:
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     - name: 安装依赖
       run: |
@@ -25,12 +48,14 @@ jobs:
         pip install -r requirements.txt
 
     - name: 生成早安图
+      env:
+        WEWORK_WEBHOOK_URL: ${{ secrets.WEWORK_WEBHOOK_URL }}
+        UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
       run: python generate.py
 
-    - name: 提交生成的图片
+    - name: 提交变更（语录库 + 生成图片）
       run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git add output/
-        git diff --quiet && git diff --staged --quiet || git commit -m "🌅 自动生成早安图 $(date '+%Y-%m-%d')"
-        git push
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        git add data/quotes.json output/
+        git diff --quiet && git diff --staged --quiet || (git commit -m "每日早安图 $(date -u '+%Y-%m-%d')" && git push)
