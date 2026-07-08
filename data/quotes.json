@@ -6,11 +6,6 @@
       "enabled": true
     },
     {
-      "id": 4,
-      "content": "人生真正的丰盈，不是拥有多少，而是内心始终留得住从容。",
-      "enabled": true
-    },
-    {
       "id": 5,
       "content": "那些看似平淡无奇的日子，往往藏着后来最怀念的光。",
       "enabled": true
@@ -187,7 +182,7 @@
     }
   ],
   "metadata": {
-    "total_count": 37,
+    "total_count": 36,
     "last_updated": "2026-06-01",
     "version": "4.0"
   }
