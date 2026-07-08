@@ -33,13 +33,12 @@ jobs:
       if: steps.cache-fonts.outputs.cache-hit != 'true'
       run: |
         mkdir -p assets/fonts
-        gh release download fonts --repo ${{ github.repository }} --dir assets/fonts/ --clobber 2>/dev/null || true
-        if [ ! -f "assets/fonts/DreamHanSerif-W13.ttc" ]; then
-          echo "WARNING: 未找到字体 Release"
-        fi
-        ls -lh assets/fonts/ 2>/dev/null || true
-      env:
-        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        cd /tmp
+        # 从 Release 下载字体 zip
+        wget -q "https://github.com/${{ github.repository }}/releases/download/fonts/morning-poster-fonts.zip" -O fonts.zip
+        unzip -o fonts.zip -d "$GITHUB_WORKSPACE/assets/fonts/"
+        ls -lh assets/fonts/
+        cd "$GITHUB_WORKSPACE"
 
     - name: 安装依赖
       run: |
