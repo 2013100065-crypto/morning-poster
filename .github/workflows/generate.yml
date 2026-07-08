@@ -9,6 +9,8 @@ on:
 jobs:
   generate:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
 
     steps:
     - name: 检出代码
@@ -31,14 +33,13 @@ jobs:
 
     - name: 下载字体（缓存未命中时）
       if: steps.cache-fonts.outputs.cache-hit != 'true'
+      env:
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         mkdir -p assets/fonts
-        cd /tmp
-        # 从 Release 下载字体 zip
-        wget -q "https://github.com/${{ github.repository }}/releases/download/fonts/morning-poster-fonts.zip" -O fonts.zip
-        unzip -o fonts.zip -d "$GITHUB_WORKSPACE/assets/fonts/"
+        gh release download fonts --repo ${{ github.repository }} --dir /tmp/fonts_download --clobber
+        unzip -o /tmp/fonts_download/morning-poster-fonts.zip -d assets/fonts/
         ls -lh assets/fonts/
-        cd "$GITHUB_WORKSPACE"
 
     - name: 安装依赖
       run: |
