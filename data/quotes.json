@@ -81,11 +81,6 @@
       "enabled": true
     },
     {
-      "id": 25,
-      "content": "与其着急看结果，不如认真种下今天的因。",
-      "enabled": true
-    },
-    {
       "id": 26,
       "content": "所有沉默的坚持，都会在未来某一天开出花来。",
       "enabled": true
@@ -192,7 +187,7 @@
     }
   ],
   "metadata": {
-    "total_count": 38,
+    "total_count": 37,
     "last_updated": "2026-06-01",
     "version": "4.0"
   }
