@@ -10,13 +10,14 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     permissions:
-      contents: read
+      contents: write
 
     steps:
     - name: 检出代码
       uses: actions/checkout@v4
       with:
         fetch-depth: 0
+        token: ${{ secrets.GITHUB_TOKEN }}
 
     - name: 设置 Python
       uses: actions/setup-python@v5
