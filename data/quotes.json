@@ -6,11 +6,6 @@
       "enabled": true
     },
     {
-      "id": 4,
-      "content": "人生真正的丰盈，不是拥有多少，而是内心始终留得住从容。",
-      "enabled": true
-    },
-    {
       "id": 5,
       "content": "那些看似平淡无奇的日子，往往藏着后来最怀念的光。",
       "enabled": true
@@ -78,11 +73,6 @@
     {
       "id": 24,
       "content": "人生的辽阔，不在远方，而在内心一点点被打开。",
-      "enabled": true
-    },
-    {
-      "id": 25,
-      "content": "与其着急看结果，不如认真种下今天的因。",
       "enabled": true
     },
     {
@@ -192,7 +182,7 @@
     }
   ],
   "metadata": {
-    "total_count": 38,
+    "total_count": 36,
     "last_updated": "2026-06-01",
     "version": "4.0"
   }
