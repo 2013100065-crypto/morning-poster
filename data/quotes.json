@@ -26,11 +26,6 @@
       "enabled": true
     },
     {
-      "id": 10,
-      "content": "世界总有喧哗的时候，但一个人最好的状态，是心里始终安静。",
-      "enabled": true
-    },
-    {
       "id": 12,
       "content": "真正的答案，从来不在别人的嘴里，而在自己走过的路上。",
       "enabled": true
@@ -172,7 +167,7 @@
     }
   ],
   "metadata": {
-    "total_count": 36,
+    "total_count": 33,
     "last_updated": "2026-06-01",
     "version": "4.0"
   }
