@@ -40,7 +40,7 @@ FIXED_ELEMENTS = str(ASSETS_DIR / "fixed_elements.png")
 QUOTES_FILE = str(BASE_DIR / "data" / "quotes.json")
 
 # 企业微信 Webhook（消息推送机器人）
-WEWORK_WEBHOOK_URL = os.environ.get("WEWORK_WEBHOOK_URL", "https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=b7816aed-e2f1-4ae1-a391-09234b8ba782")
+WEWORK_WEBHOOK_URL = os.environ.get("WEWORK_WEBHOOK_URL", "")
 
 # Unsplash 关键词 - 纯自然风景，避免城市建筑
 UNSPLASH_KEYWORDS = ["nature", "forest", "mountain", "ocean", "lake", "garden", "sunrise", "sunset", "meadow", "waterfall", "beach", "flowers", "trees", "river", "sky", "clouds"]
@@ -121,7 +121,7 @@ def fetch_unsplash_image():
             params = {
                 "query": keyword,
                 "orientation": "portrait",
-                "client_id": os.environ.get("UNSPLASH_ACCESS_KEY", "Wdi2qF7xGzJ9T6sJmFqBkG8r4XzLpNaHc3YvEwDkM0o")
+                "client_id": os.environ.get("UNSPLASH_ACCESS_KEY", "")
             }
             resp = requests.get(api_url, params=params, timeout=15)
             
