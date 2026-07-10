@@ -76,11 +76,6 @@
       "enabled": true
     },
     {
-      "id": 27,
-      "content": "日复一日的认真，本身就是一种了不起的答案。",
-      "enabled": true
-    },
-    {
       "id": 28,
       "content": "人终究会明白，最值得奔赴的，是更好的自己。",
       "enabled": true
@@ -162,7 +157,7 @@
     }
   ],
   "metadata": {
-    "total_count": 32,
+    "total_count": 31,
     "last_updated": "2026-06-01",
     "version": "4.0"
   }
