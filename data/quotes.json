@@ -116,11 +116,6 @@
       "enabled": true
     },
     {
-      "id": 37,
-      "content": "那些熬过去的时光，终会变成照亮来路的光。",
-      "enabled": true
-    },
-    {
       "id": 38,
       "content": "不慌着证明什么，时间会替你回答一切。",
       "enabled": true
@@ -167,7 +162,7 @@
     }
   ],
   "metadata": {
-    "total_count": 33,
+    "total_count": 32,
     "last_updated": "2026-06-01",
     "version": "4.0"
   }
