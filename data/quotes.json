@@ -136,11 +136,6 @@
       "enabled": true
     },
     {
-      "id": 45,
-      "content": "不必着急成为谁，先成为让自己安心的人。",
-      "enabled": true
-    },
-    {
       "id": 47,
       "content": "所有看似平凡的坚持，最终都会变得意义非凡。",
       "enabled": true
@@ -157,7 +152,7 @@
     }
   ],
   "metadata": {
-    "total_count": 31,
+    "total_count": 30,
     "last_updated": "2026-06-01",
     "version": "4.0"
   }
