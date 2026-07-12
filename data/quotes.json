@@ -111,11 +111,6 @@
       "enabled": true
     },
     {
-      "id": 38,
-      "content": "不慌着证明什么，时间会替你回答一切。",
-      "enabled": true
-    },
-    {
       "id": 39,
       "content": "真正的成长，是越来越能和生活和平相处。",
       "enabled": true
@@ -152,7 +147,7 @@
     }
   ],
   "metadata": {
-    "total_count": 30,
+    "total_count": 29,
     "last_updated": "2026-06-01",
     "version": "4.0"
   }
