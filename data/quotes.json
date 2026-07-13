@@ -61,11 +61,6 @@
       "enabled": true
     },
     {
-      "id": 22,
-      "content": "山有山的高度，海有海的辽阔，人也该有自己的方向。",
-      "enabled": true
-    },
-    {
       "id": 24,
       "content": "人生的辽阔，不在远方，而在内心一点点被打开。",
       "enabled": true
@@ -147,7 +142,7 @@
     }
   ],
   "metadata": {
-    "total_count": 29,
+    "total_count": 28,
     "last_updated": "2026-06-01",
     "version": "4.0"
   }
