@@ -81,11 +81,6 @@
       "enabled": true
     },
     {
-      "id": 30,
-      "content": "世界很大，脚下很实，能走稳每一步，就是难得的本事。",
-      "enabled": true
-    },
-    {
       "id": 32,
       "content": "岁月会让浮躁的人散场，也会让沉静的人发光。",
       "enabled": true
@@ -142,7 +137,7 @@
     }
   ],
   "metadata": {
-    "total_count": 28,
+    "total_count": 27,
     "last_updated": "2026-06-01",
     "version": "4.0"
   }
