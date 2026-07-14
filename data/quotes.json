@@ -46,11 +46,6 @@
       "enabled": true
     },
     {
-      "id": 20,
-      "content": "不必羡慕别人的节奏，属于你的答案，会在合适的时候展开。",
-      "enabled": true
-    },
-    {
       "id": 24,
       "content": "人生的辽阔，不在远方，而在内心一点点被打开。",
       "enabled": true
@@ -122,7 +117,7 @@
     }
   ],
   "metadata": {
-    "total_count": 24,
+    "total_count": 23,
     "last_updated": "2026-06-01",
     "version": "4.0"
   }
