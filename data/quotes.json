@@ -81,11 +81,6 @@
       "enabled": true
     },
     {
-      "id": 33,
-      "content": "每一个看似不起眼的清晨，都藏着重新开始的机会。",
-      "enabled": true
-    },
-    {
       "id": 35,
       "content": "人生不一定时时热烈，但一定可以处处认真。",
       "enabled": true
@@ -132,7 +127,7 @@
     }
   ],
   "metadata": {
-    "total_count": 26,
+    "total_count": 25,
     "last_updated": "2026-06-01",
     "version": "4.0"
   }
