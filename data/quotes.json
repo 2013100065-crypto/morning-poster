@@ -16,11 +16,6 @@
       "enabled": true
     },
     {
-      "id": 8,
-      "content": "时间会替你筛选掉不重要的人和事，也会留下最值得珍惜的部分。",
-      "enabled": true
-    },
-    {
       "id": 9,
       "content": "人这一生，不过是在经历里沉淀，在沉淀里慢慢成为自己。",
       "enabled": true
@@ -127,7 +122,7 @@
     }
   ],
   "metadata": {
-    "total_count": 25,
+    "total_count": 24,
     "last_updated": "2026-06-01",
     "version": "4.0"
   }
