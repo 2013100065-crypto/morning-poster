@@ -31,11 +31,6 @@
       "enabled": true
     },
     {
-      "id": 14,
-      "content": "人生最难得的，不是事事如愿，而是始终保有向前的勇气。",
-      "enabled": true
-    },
-    {
       "id": 15,
       "content": "生活的褶皱里藏着光，只要愿意认真看，总会发现温柔的痕迹。",
       "enabled": true
@@ -137,7 +132,7 @@
     }
   ],
   "metadata": {
-    "total_count": 27,
+    "total_count": 26,
     "last_updated": "2026-06-01",
     "version": "4.0"
   }
