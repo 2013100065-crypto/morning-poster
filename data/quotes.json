@@ -56,11 +56,6 @@
       "enabled": true
     },
     {
-      "id": 28,
-      "content": "人终究会明白，最值得奔赴的，是更好的自己。",
-      "enabled": true
-    },
-    {
       "id": 29,
       "content": "真正能照亮一个人的，从来不是运气，而是清醒和笃定。",
       "enabled": true
@@ -117,7 +112,7 @@
     }
   ],
   "metadata": {
-    "total_count": 23,
+    "total_count": 22,
     "last_updated": "2026-06-01",
     "version": "4.0"
   }
