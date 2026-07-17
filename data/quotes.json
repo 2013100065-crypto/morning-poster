@@ -66,11 +66,6 @@
       "enabled": true
     },
     {
-      "id": 36,
-      "content": "世界偶尔薄凉，但认真生活的人，总能遇见温暖。",
-      "enabled": true
-    },
-    {
       "id": 39,
       "content": "真正的成长，是越来越能和生活和平相处。",
       "enabled": true
@@ -107,7 +102,7 @@
     }
   ],
   "metadata": {
-    "total_count": 21,
+    "total_count": 20,
     "last_updated": "2026-06-01",
     "version": "4.0"
   }
