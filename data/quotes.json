@@ -11,11 +11,6 @@
       "enabled": true
     },
     {
-      "id": 6,
-      "content": "生活从来不会亏待认真赶路的人，只是它的答案，来得稍晚一些。",
-      "enabled": true
-    },
-    {
       "id": 12,
       "content": "真正的答案，从来不在别人的嘴里，而在自己走过的路上。",
       "enabled": true
@@ -102,7 +97,7 @@
     }
   ],
   "metadata": {
-    "total_count": 20,
+    "total_count": 19,
     "last_updated": "2026-06-01",
     "version": "4.0"
   }
