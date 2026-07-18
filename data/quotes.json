@@ -56,11 +56,6 @@
       "enabled": true
     },
     {
-      "id": 35,
-      "content": "人生不一定时时热烈，但一定可以处处认真。",
-      "enabled": true
-    },
-    {
       "id": 39,
       "content": "真正的成长，是越来越能和生活和平相处。",
       "enabled": true
@@ -97,7 +92,7 @@
     }
   ],
   "metadata": {
-    "total_count": 19,
+    "total_count": 18,
     "last_updated": "2026-06-01",
     "version": "4.0"
   }
