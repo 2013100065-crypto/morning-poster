@@ -21,11 +21,6 @@
       "enabled": true
     },
     {
-      "id": 16,
-      "content": "岁月从不声张，却在无数个寻常日子里悄悄成全一个人。",
-      "enabled": true
-    },
-    {
       "id": 17,
       "content": "不是所有等待都会落空，有些迟来的抵达，反而更值得珍藏。",
       "enabled": true
@@ -92,7 +87,7 @@
     }
   ],
   "metadata": {
-    "total_count": 18,
+    "total_count": 17,
     "last_updated": "2026-06-01",
     "version": "4.0"
   }
