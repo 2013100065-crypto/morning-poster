@@ -56,11 +56,6 @@
       "enabled": true
     },
     {
-      "id": 42,
-      "content": "所有值得期待的未来，都始于认真过好今天。",
-      "enabled": true
-    },
-    {
       "id": 43,
       "content": "人这一生最好的底色，是清醒、笃定，还有一点温柔。",
       "enabled": true
@@ -82,7 +77,7 @@
     }
   ],
   "metadata": {
-    "total_count": 16,
+    "total_count": 15,
     "last_updated": "2026-06-01",
     "version": "4.0"
   }
