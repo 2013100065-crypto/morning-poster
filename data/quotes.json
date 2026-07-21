@@ -66,18 +66,13 @@
       "enabled": true
     },
     {
-      "id": 48,
-      "content": "生活从不会辜负耐心，它只是喜欢晚一点给惊喜。",
-      "enabled": true
-    },
-    {
       "id": 50,
       "content": "新的一页已经展开，剩下的故事，值得认真去写。",
       "enabled": true
     }
   ],
   "metadata": {
-    "total_count": 15,
+    "total_count": 14,
     "last_updated": "2026-06-01",
     "version": "4.0"
   }
