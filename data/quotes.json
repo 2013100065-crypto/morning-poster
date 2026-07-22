@@ -16,11 +16,6 @@
       "enabled": true
     },
     {
-      "id": 15,
-      "content": "生活的褶皱里藏着光，只要愿意认真看，总会发现温柔的痕迹。",
-      "enabled": true
-    },
-    {
       "id": 17,
       "content": "不是所有等待都会落空，有些迟来的抵达，反而更值得珍藏。",
       "enabled": true
@@ -72,7 +67,7 @@
     }
   ],
   "metadata": {
-    "total_count": 14,
+    "total_count": 13,
     "last_updated": "2026-06-01",
     "version": "4.0"
   }
