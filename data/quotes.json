@@ -31,11 +31,6 @@
       "enabled": true
     },
     {
-      "id": 29,
-      "content": "真正能照亮一个人的，从来不是运气，而是清醒和笃定。",
-      "enabled": true
-    },
-    {
       "id": 32,
       "content": "岁月会让浮躁的人散场，也会让沉静的人发光。",
       "enabled": true
@@ -67,7 +62,7 @@
     }
   ],
   "metadata": {
-    "total_count": 13,
+    "total_count": 12,
     "last_updated": "2026-06-01",
     "version": "4.0"
   }
