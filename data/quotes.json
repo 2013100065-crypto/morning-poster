@@ -1,11 +1,6 @@
 {
   "quotes": [
     {
-      "id": 3,
-      "content": "天总会亮，路总会清，眼下看不清的地方，交给时间去照明。",
-      "enabled": true
-    },
-    {
       "id": 5,
       "content": "那些看似平淡无奇的日子，往往藏着后来最怀念的光。",
       "enabled": true
@@ -62,7 +57,7 @@
     }
   ],
   "metadata": {
-    "total_count": 12,
+    "total_count": 11,
     "last_updated": "2026-06-01",
     "version": "4.0"
   }
