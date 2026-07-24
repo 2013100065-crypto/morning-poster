@@ -11,11 +11,6 @@
       "enabled": true
     },
     {
-      "id": 17,
-      "content": "不是所有等待都会落空，有些迟来的抵达，反而更值得珍藏。",
-      "enabled": true
-    },
-    {
       "id": 18,
       "content": "真正的清醒，不是看透世界，而是看清之后依然热爱生活。",
       "enabled": true
@@ -57,7 +52,7 @@
     }
   ],
   "metadata": {
-    "total_count": 11,
+    "total_count": 10,
     "last_updated": "2026-06-01",
     "version": "4.0"
   }
