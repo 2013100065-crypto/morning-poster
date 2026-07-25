@@ -36,11 +36,6 @@
       "enabled": true
     },
     {
-      "id": 43,
-      "content": "人这一生最好的底色，是清醒、笃定，还有一点温柔。",
-      "enabled": true
-    },
-    {
       "id": 47,
       "content": "所有看似平凡的坚持，最终都会变得意义非凡。",
       "enabled": true
@@ -52,7 +47,7 @@
     }
   ],
   "metadata": {
-    "total_count": 10,
+    "total_count": 9,
     "last_updated": "2026-06-01",
     "version": "4.0"
   }
