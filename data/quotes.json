@@ -16,11 +16,6 @@
       "enabled": true
     },
     {
-      "id": 26,
-      "content": "所有沉默的坚持，都会在未来某一天开出花来。",
-      "enabled": true
-    },
-    {
       "id": 32,
       "content": "岁月会让浮躁的人散场，也会让沉静的人发光。",
       "enabled": true
@@ -47,7 +42,7 @@
     }
   ],
   "metadata": {
-    "total_count": 9,
+    "total_count": 8,
     "last_updated": "2026-06-01",
     "version": "4.0"
   }
