@@ -31,18 +31,13 @@
       "enabled": true
     },
     {
-      "id": 47,
-      "content": "所有看似平凡的坚持，最终都会变得意义非凡。",
-      "enabled": true
-    },
-    {
       "id": 50,
       "content": "新的一页已经展开，剩下的故事，值得认真去写。",
       "enabled": true
     }
   ],
   "metadata": {
-    "total_count": 8,
+    "total_count": 7,
     "last_updated": "2026-06-01",
     "version": "4.0"
   }
