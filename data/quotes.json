@@ -16,11 +16,6 @@
       "enabled": true
     },
     {
-      "id": 32,
-      "content": "岁月会让浮躁的人散场，也会让沉静的人发光。",
-      "enabled": true
-    },
-    {
       "id": 39,
       "content": "真正的成长，是越来越能和生活和平相处。",
       "enabled": true
@@ -37,7 +32,7 @@
     }
   ],
   "metadata": {
-    "total_count": 7,
+    "total_count": 6,
     "last_updated": "2026-06-01",
     "version": "4.0"
   }
