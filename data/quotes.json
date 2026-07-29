@@ -11,11 +11,6 @@
       "enabled": true
     },
     {
-      "id": 39,
-      "content": "真正的成长，是越来越能和生活和平相处。",
-      "enabled": true
-    },
-    {
       "id": 40,
       "content": "每一次安静的沉淀，都是为了下一次更好的盛放。",
       "enabled": true
@@ -27,7 +22,7 @@
     }
   ],
   "metadata": {
-    "total_count": 5,
+    "total_count": 4,
     "last_updated": "2026-06-01",
     "version": "4.0"
   }
