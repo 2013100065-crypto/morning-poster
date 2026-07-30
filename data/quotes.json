@@ -14,15 +14,10 @@
       "id": 40,
       "content": "每一次安静的沉淀，都是为了下一次更好的盛放。",
       "enabled": true
-    },
-    {
-      "id": 50,
-      "content": "新的一页已经展开，剩下的故事，值得认真去写。",
-      "enabled": true
     }
   ],
   "metadata": {
-    "total_count": 4,
+    "total_count": 3,
     "last_updated": "2026-06-01",
     "version": "4.0"
   }
