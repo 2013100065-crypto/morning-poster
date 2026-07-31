@@ -1,11 +1,6 @@
 {
   "quotes": [
     {
-      "id": 5,
-      "content": "那些看似平淡无奇的日子，往往藏着后来最怀念的光。",
-      "enabled": true
-    },
-    {
       "id": 12,
       "content": "真正的答案，从来不在别人的嘴里，而在自己走过的路上。",
       "enabled": true
@@ -17,7 +12,7 @@
     }
   ],
   "metadata": {
-    "total_count": 3,
+    "total_count": 2,
     "last_updated": "2026-06-01",
     "version": "4.0"
   }
