@@ -1,18 +1,13 @@
 {
   "quotes": [
     {
-      "id": 12,
-      "content": "真正的答案，从来不在别人的嘴里，而在自己走过的路上。",
-      "enabled": true
-    },
-    {
       "id": 40,
       "content": "每一次安静的沉淀，都是为了下一次更好的盛放。",
       "enabled": true
     }
   ],
   "metadata": {
-    "total_count": 2,
+    "total_count": 1,
     "last_updated": "2026-06-01",
     "version": "4.0"
   }
