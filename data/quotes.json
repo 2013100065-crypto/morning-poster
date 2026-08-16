@@ -1,105 +1,505 @@
 {
   "quotes": [
-    {"id": 1, "content": "河流的弯曲，不是绕路，是它自己的节奏。", "enabled": true},
-    {"id": 2, "content": "火焰之所以向上，是因为它忘记了重力。", "enabled": true},
-    {"id": 3, "content": "竹子中空，所以风过有声。", "enabled": true},
-    {"id": 4, "content": "鸟的飞翔不是离开大地，而是用另一种方式拥抱它。", "enabled": true},
-    {"id": 5, "content": "烛火摇动时，灯芯学会了舞蹈。", "enabled": true},
-    {"id": 6, "content": "种子知道它要成为树，但它从不着急。", "enabled": true},
-    {"id": 7, "content": "山从不炫耀高度，它只是在那里。", "enabled": true},
-    {"id": 8, "content": "石头在溪水里变得光滑，不是被磨平，是被写上了柔软。", "enabled": true},
-    {"id": 9, "content": "海洋的深邃，在于它接纳所有河流的个性。", "enabled": true},
-    {"id": 10, "content": "根向下扎得越深，枝叶越敢触摸天空。", "enabled": true},
-    {"id": 11, "content": "一日三餐，是生命最朴素的祭坛。", "enabled": true},
-    {"id": 12, "content": "走路时，脚底与大地的每一次对话，都在提醒你在此刻。", "enabled": true},
-    {"id": 13, "content": "睡前关灯的那一瞬，你把手里的世界交还给黑暗保管。", "enabled": true},
-    {"id": 14, "content": "你如何对待一粒米，就如何对待整个生命。", "enabled": true},
-    {"id": 15, "content": "把每一天都当作第一天来过，那么每一天都是崭新的。", "enabled": true},
-    {"id": 16, "content": "泡茶时，耐心比水温更重要。", "enabled": true},
-    {"id": 17, "content": "整理房间，也是在整理内心的秩序。", "enabled": true},
-    {"id": 18, "content": "等水烧开的那几分钟，可能是一天中最诚实的时光。", "enabled": true},
-    {"id": 19, "content": "清晨的第一口水，是身体对世界的第一次"欢迎"。", "enabled": true},
-    {"id": 20, "content": "日常不是平庸，是伟大藏身的地方。", "enabled": true},
-    {"id": 21, "content": "脚步不是在丈量地面，是在书写你的轨迹。", "enabled": true},
-    {"id": 22, "content": "皮肤记得所有拥抱的温度，哪怕头脑早已遗忘。", "enabled": true},
-    {"id": 23, "content": "心跳不以你的意志为转移，它提醒你：有一种节奏比思想更古老。", "enabled": true},
-    {"id": 24, "content": "困倦是黑夜托你交付给梦的快递。", "enabled": true},
-    {"id": 25, "content": "笑，是身体突然翻译出了灵魂的幽默。", "enabled": true},
-    {"id": 26, "content": "你的手，是灵魂触碰世界的触角。", "enabled": true},
-    {"id": 27, "content": "眼睛向外看时是工具，向内看时才成为向导。", "enabled": true},
-    {"id": 28, "content": "呼吸是生命最谦卑的宣誓：我在，我正在。", "enabled": true},
-    {"id": 29, "content": "饥饿不是匮乏，是身体在邀请你与自己对话。", "enabled": true},
-    {"id": 30, "content": "你的脊椎，是承载重量的同时保持笔直的诗。", "enabled": true},
-    {"id": 31, "content": "高处让人看见远方，低处让人看见细节。", "enabled": true},
-    {"id": 32, "content": "在拥挤的人群中，保持内心的空旷。", "enabled": true},
-    {"id": 33, "content": "屋檐教会雨如何成为雨。", "enabled": true},
-    {"id": 34, "content": "台阶的价值在于被攀登，而非它本身的高度。", "enabled": true},
-    {"id": 35, "content": "密室不是囚禁，是让回声学会自处。", "enabled": true},
-    {"id": 36, "content": "角落，不是因为无路可走，而是因为可以退守。", "enabled": true},
-    {"id": 37, "content": "十字路口的真正含义：你永远比任何一条路都大。", "enabled": true},
-    {"id": 38, "content": "废墟不是历史的终点，是未来种子的花盆。", "enabled": true},
-    {"id": 39, "content": "阴凉处不是光的失败，是光的另一种到达。", "enabled": true},
-    {"id": 40, "content": "地平线不是界限，是目光的邀请函。", "enabled": true},
-    {"id": 41, "content": "最坚固的，往往是最柔软的东西——比如水。", "enabled": true},
-    {"id": 42, "content": "最大的秘密，常常写在最公开的地方。", "enabled": true},
-    {"id": 43, "content": "真正自由的人，甘愿被某种意义束缚。", "enabled": true},
-    {"id": 44, "content": "最深的记忆，恰恰是那些你以为早已忘记的。", "enabled": true},
-    {"id": 45, "content": "完美是一个陷阱，而完整是一条道路。", "enabled": true},
-    {"id": 46, "content": "得到，从学会失去开始。", "enabled": true},
-    {"id": 47, "content": "说"我懂了"的人，可能刚刚关上那扇门。", "enabled": true},
-    {"id": 48, "content": "控制得越多，失去控制的速度越快。", "enabled": true},
-    {"id": 49, "content": "孤独到极致，反而触到了万物相连的脉动。", "enabled": true},
-    {"id": 50, "content": "当你不再追问"为什么"，答案反而会走来。", "enabled": true},
-    {"id": 51, "content": "念头是天空的云，你既是天空也是看云的人。", "enabled": true},
-    {"id": 52, "content": "情绪不是洪水，是临时演员，你是导演。", "enabled": true},
-    {"id": 53, "content": "梦不是睡眠的叛徒，是意识在换一个频道。", "enabled": true},
-    {"id": 54, "content": "内省不是审视自己，是温柔地陪自己坐一会儿。", "enabled": true},
-    {"id": 55, "content": "一念之间，可以是一整个宇宙的翻转。", "enabled": true},
-    {"id": 56, "content": "觉知是一面不擦也干净的镜子。", "enabled": true},
-    {"id": 57, "content": "当你意识到自己在思考时，你已经超越了思考。", "enabled": true},
-    {"id": 58, "content": "注意力是你拥有的最稀缺的货币，请谨慎投资。", "enabled": true},
-    {"id": 59, "content": "预感不是迷信，是潜意识先于你抵达。", "enabled": true},
-    {"id": 60, "content": "清醒的最高形式，是意识到你正在梦中。", "enabled": true},
-    {"id": 61, "content": "你们是两盏灯，不必重叠，但彼此照亮。", "enabled": true},
-    {"id": 62, "content": "爱不是寻找完美的人，而是学会用完美的眼光看一个不完美的人。", "enabled": true},
-    {"id": 63, "content": "陪伴不是一直在身边，而是需要时你恰好在场。", "enabled": true},
-    {"id": 64, "content": "原谅不是遗忘，是把记忆放回它该在的位置。", "enabled": true},
-    {"id": 65, "content": "你对待弱者的态度，是你灵魂的签名。", "enabled": true},
-    {"id": 66, "content": "真正的靠近，是保持恰到好处的距离。", "enabled": true},
-    {"id": 67, "content": "最深的信任，是允许对方在你面前沉默。", "enabled": true},
-    {"id": 68, "content": "你给的，不一定是对方要的，这是关系中最难的课题。", "enabled": true},
-    {"id": 69, "content": "冲突是两颗心在打扫各自的房间。", "enabled": true},
-    {"id": 70, "content": "你无法让所有人都喜欢你，正如风不能让所有树都弯腰。", "enabled": true},
-    {"id": 71, "content": "夏天教会我们：热情需要阴影的平衡。", "enabled": true},
-    {"id": 72, "content": "冬天不是死寂，是大地在打一个漫长的盹儿。", "enabled": true},
-    {"id": 73, "content": "霜不是寒冷的结果，是夜在叶上写下的日记。", "enabled": true},
-    {"id": 74, "content": "雾，让熟悉的世界重新陌生，好让你重新认识它。", "enabled": true},
-    {"id": 75, "content": "黄昏是一天中最接近永恒的瞬间。", "enabled": true},
-    {"id": 76, "content": "春天不急着开花，它只是让雪松口。", "enabled": true},
-    {"id": 77, "content": "秋天的落叶不是在告别，是在练习如何轻盈地放下。", "enabled": true},
-    {"id": 78, "content": "雨季教会我们：等，也是一种行动。", "enabled": true},
-    {"id": 79, "content": "风从不解释自己为何转向，它只是继续吹。", "enabled": true},
-    {"id": 80, "content": "干旱不是水的缺席，是土地在练习忍耐。", "enabled": true},
-    {"id": 81, "content": "行走的意义不在于移动，而在于让风景翻页。", "enabled": true},
-    {"id": 82, "content": "静止是行动的隐秘心脏。", "enabled": true},
-    {"id": 83, "content": "迟疑是智慧在路口系鞋带。", "enabled": true},
-    {"id": 84, "content": "一个暂停，让整个节奏有了呼吸的余地。", "enabled": true},
-    {"id": 85, "content": "勇气不是不颤抖，而是颤抖着依然迈步。", "enabled": true},
-    {"id": 86, "content": "最快的抵达，有时是停下来看清方向。", "enabled": true},
-    {"id": 87, "content": "后退，有时是为了给前进一个更长的助跑。", "enabled": true},
-    {"id": 88, "content": "重复不是单调，是深度在打井。", "enabled": true},
-    {"id": 89, "content": "行动时的专注，比行动本身更接近自由。", "enabled": true},
-    {"id": 90, "content": "终点不是行动的完成，是行动换了一种身份继续。", "enabled": true},
-    {"id": 91, "content": "杯子的价值，在于它空着的那部分。", "enabled": true},
-    {"id": 92, "content": "桥，证明了"隔"与"通"可以同时存在。", "enabled": true},
-    {"id": 93, "content": "窗是墙壁学会呼吸的地方。", "enabled": true},
-    {"id": 94, "content": "一把伞在雨中才认识自己的使命。", "enabled": true},
-    {"id": 95, "content": "钟表制造时间的分寸，却不知时间本无尺寸。", "enabled": true},
-    {"id": 96, "content": "一把好锁，不是因为它拒人千里，而是它懂得为谁而开。", "enabled": true},
-    {"id": 97, "content": "门的意义，不只是阻隔，更是赋予"进入"以仪式感。", "enabled": true},
-    {"id": 98, "content": "一把梯子，永远指向它自身之外的方向。", "enabled": true},
-    {"id": 99, "content": "灯芯燃烧自己，是为了让油显现它的光芒。", "enabled": true},
-    {"id": 100, "content": "碗从不挑剔盛装什么，它的圆满在于接纳。", "enabled": true}
+    {
+      "id": 1,
+      "content": "河流的弯曲，不是绕路，是它自己的节奏。",
+      "enabled": true
+    },
+    {
+      "id": 2,
+      "content": "火焰之所以向上，是因为它忘记了重力。",
+      "enabled": true
+    },
+    {
+      "id": 3,
+      "content": "竹子中空，所以风过有声。",
+      "enabled": true
+    },
+    {
+      "id": 4,
+      "content": "鸟的飞翔不是离开大地，而是用另一种方式拥抱它。",
+      "enabled": true
+    },
+    {
+      "id": 5,
+      "content": "烛火摇动时，灯芯学会了舞蹈。",
+      "enabled": true
+    },
+    {
+      "id": 6,
+      "content": "种子知道它要成为树，但它从不着急。",
+      "enabled": true
+    },
+    {
+      "id": 7,
+      "content": "山从不炫耀高度，它只是在那里。",
+      "enabled": true
+    },
+    {
+      "id": 8,
+      "content": "石头在溪水里变得光滑，不是被磨平，是被写上了柔软。",
+      "enabled": true
+    },
+    {
+      "id": 9,
+      "content": "海洋的深邃，在于它接纳所有河流的个性。",
+      "enabled": true
+    },
+    {
+      "id": 10,
+      "content": "根向下扎得越深，枝叶越敢触摸天空。",
+      "enabled": true
+    },
+    {
+      "id": 11,
+      "content": "一日三餐，是生命最朴素的祭坛。",
+      "enabled": true
+    },
+    {
+      "id": 12,
+      "content": "走路时，脚底与大地的每一次对话，都在提醒你在此刻。",
+      "enabled": true
+    },
+    {
+      "id": 13,
+      "content": "睡前关灯的那一瞬，你把手里的世界交还给黑暗保管。",
+      "enabled": true
+    },
+    {
+      "id": 14,
+      "content": "你如何对待一粒米，就如何对待整个生命。",
+      "enabled": true
+    },
+    {
+      "id": 15,
+      "content": "把每一天都当作第一天来过，那么每一天都是崭新的。",
+      "enabled": true
+    },
+    {
+      "id": 16,
+      "content": "泡茶时，耐心比水温更重要。",
+      "enabled": true
+    },
+    {
+      "id": 17,
+      "content": "整理房间，也是在整理内心的秩序。",
+      "enabled": true
+    },
+    {
+      "id": 18,
+      "content": "等水烧开的那几分钟，可能是一天中最诚实的时光。",
+      "enabled": true
+    },
+    {
+      "id": 19,
+      "content": "清晨的第一口水，是身体对世界的第一次欢迎。",
+      "enabled": true
+    },
+    {
+      "id": 20,
+      "content": "日常不是平庸，是伟大藏身的地方。",
+      "enabled": true
+    },
+    {
+      "id": 21,
+      "content": "脚步不是在丈量地面，是在书写你的轨迹。",
+      "enabled": true
+    },
+    {
+      "id": 22,
+      "content": "皮肤记得所有拥抱的温度，哪怕头脑早已遗忘。",
+      "enabled": true
+    },
+    {
+      "id": 23,
+      "content": "心跳不以你的意志为转移，它提醒你：有一种节奏比思想更古老。",
+      "enabled": true
+    },
+    {
+      "id": 24,
+      "content": "困倦是黑夜托你交付给梦的快递。",
+      "enabled": true
+    },
+    {
+      "id": 25,
+      "content": "笑，是身体突然翻译出了灵魂的幽默。",
+      "enabled": true
+    },
+    {
+      "id": 26,
+      "content": "你的手，是灵魂触碰世界的触角。",
+      "enabled": true
+    },
+    {
+      "id": 27,
+      "content": "眼睛向外看时是工具，向内看时才成为向导。",
+      "enabled": true
+    },
+    {
+      "id": 28,
+      "content": "呼吸是生命最谦卑的宣誓：我在，我正在。",
+      "enabled": true
+    },
+    {
+      "id": 29,
+      "content": "饥饿不是匮乏，是身体在邀请你与自己对话。",
+      "enabled": true
+    },
+    {
+      "id": 30,
+      "content": "你的脊椎，是承载重量的同时保持笔直的诗。",
+      "enabled": true
+    },
+    {
+      "id": 31,
+      "content": "高处让人看见远方，低处让人看见细节。",
+      "enabled": true
+    },
+    {
+      "id": 32,
+      "content": "在拥挤的人群中，保持内心的空旷。",
+      "enabled": true
+    },
+    {
+      "id": 33,
+      "content": "屋檐教会雨如何成为雨。",
+      "enabled": true
+    },
+    {
+      "id": 34,
+      "content": "台阶的价值在于被攀登，而非它本身的高度。",
+      "enabled": true
+    },
+    {
+      "id": 35,
+      "content": "密室不是囚禁，是让回声学会自处。",
+      "enabled": true
+    },
+    {
+      "id": 36,
+      "content": "角落，不是因为无路可走，而是因为可以退守。",
+      "enabled": true
+    },
+    {
+      "id": 37,
+      "content": "十字路口的真正含义：你永远比任何一条路都大。",
+      "enabled": true
+    },
+    {
+      "id": 38,
+      "content": "废墟不是历史的终点，是未来种子的花盆。",
+      "enabled": true
+    },
+    {
+      "id": 39,
+      "content": "阴凉处不是光的失败，是光的另一种到达。",
+      "enabled": true
+    },
+    {
+      "id": 40,
+      "content": "地平线不是界限，是目光的邀请函。",
+      "enabled": true
+    },
+    {
+      "id": 41,
+      "content": "最坚固的，往往是最柔软的东西——比如水。",
+      "enabled": true
+    },
+    {
+      "id": 42,
+      "content": "最大的秘密，常常写在最公开的地方。",
+      "enabled": true
+    },
+    {
+      "id": 43,
+      "content": "真正自由的人，甘愿被某种意义束缚。",
+      "enabled": true
+    },
+    {
+      "id": 44,
+      "content": "最深的记忆，恰恰是那些你以为早已忘记的。",
+      "enabled": true
+    },
+    {
+      "id": 45,
+      "content": "完美是一个陷阱，而完整是一条道路。",
+      "enabled": true
+    },
+    {
+      "id": 46,
+      "content": "得到，从学会失去开始。",
+      "enabled": true
+    },
+    {
+      "id": 47,
+      "content": "说我懂了的人，可能刚刚关上那扇门。",
+      "enabled": true
+    },
+    {
+      "id": 48,
+      "content": "控制得越多，失去控制的速度越快。",
+      "enabled": true
+    },
+    {
+      "id": 49,
+      "content": "孤独到极致，反而触到了万物相连的脉动。",
+      "enabled": true
+    },
+    {
+      "id": 50,
+      "content": "当你不再追问为什么，答案反而会走来。",
+      "enabled": true
+    },
+    {
+      "id": 51,
+      "content": "念头是天空的云，你既是天空也是看云的人。",
+      "enabled": true
+    },
+    {
+      "id": 52,
+      "content": "情绪不是洪水，是临时演员，你是导演。",
+      "enabled": true
+    },
+    {
+      "id": 53,
+      "content": "梦不是睡眠的叛徒，是意识在换一个频道。",
+      "enabled": true
+    },
+    {
+      "id": 54,
+      "content": "内省不是审视自己，是温柔地陪自己坐一会儿。",
+      "enabled": true
+    },
+    {
+      "id": 55,
+      "content": "一念之间，可以是一整个宇宙的翻转。",
+      "enabled": true
+    },
+    {
+      "id": 56,
+      "content": "觉知是一面不擦也干净的镜子。",
+      "enabled": true
+    },
+    {
+      "id": 57,
+      "content": "当你意识到自己在思考时，你已经超越了思考。",
+      "enabled": true
+    },
+    {
+      "id": 58,
+      "content": "注意力是你拥有的最稀缺的货币，请谨慎投资。",
+      "enabled": true
+    },
+    {
+      "id": 59,
+      "content": "预感不是迷信，是潜意识先于你抵达。",
+      "enabled": true
+    },
+    {
+      "id": 60,
+      "content": "清醒的最高形式，是意识到你正在梦中。",
+      "enabled": true
+    },
+    {
+      "id": 61,
+      "content": "你们是两盏灯，不必重叠，但彼此照亮。",
+      "enabled": true
+    },
+    {
+      "id": 62,
+      "content": "爱不是寻找完美的人，而是学会用完美的眼光看一个不完美的人。",
+      "enabled": true
+    },
+    {
+      "id": 63,
+      "content": "陪伴不是一直在身边，而是需要时你恰好在场。",
+      "enabled": true
+    },
+    {
+      "id": 64,
+      "content": "原谅不是遗忘，是把记忆放回它该在的位置。",
+      "enabled": true
+    },
+    {
+      "id": 65,
+      "content": "你对待弱者的态度，是你灵魂的签名。",
+      "enabled": true
+    },
+    {
+      "id": 66,
+      "content": "真正的靠近，是保持恰到好处的距离。",
+      "enabled": true
+    },
+    {
+      "id": 67,
+      "content": "最深的信任，是允许对方在你面前沉默。",
+      "enabled": true
+    },
+    {
+      "id": 68,
+      "content": "你给的，不一定是对方要的，这是关系中最难的课题。",
+      "enabled": true
+    },
+    {
+      "id": 69,
+      "content": "冲突是两颗心在打扫各自的房间。",
+      "enabled": true
+    },
+    {
+      "id": 70,
+      "content": "你无法让所有人都喜欢你，正如风不能让所有树都弯腰。",
+      "enabled": true
+    },
+    {
+      "id": 71,
+      "content": "夏天教会我们：热情需要阴影的平衡。",
+      "enabled": true
+    },
+    {
+      "id": 72,
+      "content": "冬天不是死寂，是大地在打一个漫长的盹儿。",
+      "enabled": true
+    },
+    {
+      "id": 73,
+      "content": "霜不是寒冷的结果，是夜在叶上写下的日记。",
+      "enabled": true
+    },
+    {
+      "id": 74,
+      "content": "雾，让熟悉的世界重新陌生，好让你重新认识它。",
+      "enabled": true
+    },
+    {
+      "id": 75,
+      "content": "黄昏是一天中最接近永恒的瞬间。",
+      "enabled": true
+    },
+    {
+      "id": 76,
+      "content": "春天不急着开花，它只是让雪松口。",
+      "enabled": true
+    },
+    {
+      "id": 77,
+      "content": "秋天的落叶不是在告别，是在练习如何轻盈地放下。",
+      "enabled": true
+    },
+    {
+      "id": 78,
+      "content": "雨季教会我们：等，也是一种行动。",
+      "enabled": true
+    },
+    {
+      "id": 79,
+      "content": "风从不解释自己为何转向，它只是继续吹。",
+      "enabled": true
+    },
+    {
+      "id": 80,
+      "content": "干旱不是水的缺席，是土地在练习忍耐。",
+      "enabled": true
+    },
+    {
+      "id": 81,
+      "content": "行走的意义不在于移动，而在于让风景翻页。",
+      "enabled": true
+    },
+    {
+      "id": 82,
+      "content": "静止是行动的隐秘心脏。",
+      "enabled": true
+    },
+    {
+      "id": 83,
+      "content": "迟疑是智慧在路口系鞋带。",
+      "enabled": true
+    },
+    {
+      "id": 84,
+      "content": "一个暂停，让整个节奏有了呼吸的余地。",
+      "enabled": true
+    },
+    {
+      "id": 85,
+      "content": "勇气不是不颤抖，而是颤抖着依然迈步。",
+      "enabled": true
+    },
+    {
+      "id": 86,
+      "content": "最快的抵达，有时是停下来看清方向。",
+      "enabled": true
+    },
+    {
+      "id": 87,
+      "content": "后退，有时是为了给前进一个更长的助跑。",
+      "enabled": true
+    },
+    {
+      "id": 88,
+      "content": "重复不是单调，是深度在打井。",
+      "enabled": true
+    },
+    {
+      "id": 89,
+      "content": "行动时的专注，比行动本身更接近自由。",
+      "enabled": true
+    },
+    {
+      "id": 90,
+      "content": "终点不是行动的完成，是行动换了一种身份继续。",
+      "enabled": true
+    },
+    {
+      "id": 91,
+      "content": "杯子的价值，在于它空着的那部分。",
+      "enabled": true
+    },
+    {
+      "id": 92,
+      "content": "桥，证明了隔与通可以同时存在。",
+      "enabled": true
+    },
+    {
+      "id": 93,
+      "content": "窗是墙壁学会呼吸的地方。",
+      "enabled": true
+    },
+    {
+      "id": 94,
+      "content": "一把伞在雨中才认识自己的使命。",
+      "enabled": true
+    },
+    {
+      "id": 95,
+      "content": "钟表制造时间的分寸，却不知时间本无尺寸。",
+      "enabled": true
+    },
+    {
+      "id": 96,
+      "content": "一把好锁，不是因为它拒人千里，而是它懂得为谁而开。",
+      "enabled": true
+    },
+    {
+      "id": 97,
+      "content": "门的意义，不只是阻隔，更是赋予进入以仪式感。",
+      "enabled": true
+    },
+    {
+      "id": 98,
+      "content": "一把梯子，永远指向它自身之外的方向。",
+      "enabled": true
+    },
+    {
+      "id": 99,
+      "content": "灯芯燃烧自己，是为了让油显现它的光芒。",
+      "enabled": true
+    },
+    {
+      "id": 100,
+      "content": "碗从不挑剔盛装什么，它的圆满在于接纳。",
+      "enabled": true
+    }
   ],
   "metadata": {
     "total_count": 100,
