@@ -71,11 +71,6 @@
       "enabled": true
     },
     {
-      "id": 15,
-      "content": "把每一天都当作第一天来过，那么每一天都是崭新的。",
-      "enabled": true
-    },
-    {
       "id": 16,
       "content": "泡茶时，耐心比水温更重要。",
       "enabled": true
@@ -502,7 +497,7 @@
     }
   ],
   "metadata": {
-    "total_count": 100,
+    "total_count": 99,
     "last_updated": "2026-08-16",
     "version": "5.0"
   }
