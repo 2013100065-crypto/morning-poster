@@ -11,11 +11,6 @@
       "enabled": true
     },
     {
-      "id": 3,
-      "content": "竹子中空，所以风过有声。",
-      "enabled": true
-    },
-    {
       "id": 4,
       "content": "鸟的飞翔不是离开大地，而是用另一种方式拥抱它。",
       "enabled": true
@@ -497,7 +492,7 @@
     }
   ],
   "metadata": {
-    "total_count": 99,
+    "total_count": 98,
     "last_updated": "2026-08-16",
     "version": "5.0"
   }
