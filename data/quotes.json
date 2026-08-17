@@ -131,11 +131,6 @@
       "enabled": true
     },
     {
-      "id": 29,
-      "content": "饥饿不是匮乏，是身体在邀请你与自己对话。",
-      "enabled": true
-    },
-    {
       "id": 30,
       "content": "你的脊椎，是承载重量的同时保持笔直的诗。",
       "enabled": true
@@ -482,7 +477,7 @@
     }
   ],
   "metadata": {
-    "total_count": 96,
+    "total_count": 95,
     "last_updated": "2026-08-16",
     "version": "5.0"
   }
