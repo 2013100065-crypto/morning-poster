@@ -146,11 +146,6 @@
       "enabled": true
     },
     {
-      "id": 32,
-      "content": "在拥挤的人群中，保持内心的空旷。",
-      "enabled": true
-    },
-    {
       "id": 33,
       "content": "屋檐教会雨如何成为雨。",
       "enabled": true
@@ -492,7 +487,7 @@
     }
   ],
   "metadata": {
-    "total_count": 98,
+    "total_count": 97,
     "last_updated": "2026-08-16",
     "version": "5.0"
   }
