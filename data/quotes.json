@@ -311,11 +311,6 @@
       "enabled": true
     },
     {
-      "id": 66,
-      "content": "真正的靠近，是保持恰到好处的距离。",
-      "enabled": true
-    },
-    {
       "id": 67,
       "content": "最深的信任，是允许对方在你面前沉默。",
       "enabled": true
@@ -487,7 +482,7 @@
     }
   ],
   "metadata": {
-    "total_count": 97,
+    "total_count": 96,
     "last_updated": "2026-08-16",
     "version": "5.0"
   }
