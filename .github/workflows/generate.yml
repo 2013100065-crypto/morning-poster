@@ -51,7 +51,7 @@ jobs:
       env:
         WEWORK_WEBHOOK_URL: ${{ secrets.WEWORK_WEBHOOK_URL }}
         UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
-      run: python generate.py --today
+      run: python generate.py
 
     - name: 提交变更（语录库 + 生成图片）
       run: |
