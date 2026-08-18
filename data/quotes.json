@@ -121,11 +121,6 @@
       "enabled": true
     },
     {
-      "id": 27,
-      "content": "眼睛向外看时是工具，向内看时才成为向导。",
-      "enabled": true
-    },
-    {
       "id": 28,
       "content": "呼吸是生命最谦卑的宣誓：我在，我正在。",
       "enabled": true
@@ -477,7 +472,7 @@
     }
   ],
   "metadata": {
-    "total_count": 95,
+    "total_count": 94,
     "last_updated": "2026-08-16",
     "version": "5.0"
   }
