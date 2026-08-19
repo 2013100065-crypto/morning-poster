@@ -91,11 +91,6 @@
       "enabled": true
     },
     {
-      "id": 21,
-      "content": "脚步不是在丈量地面，是在书写你的轨迹。",
-      "enabled": true
-    },
-    {
       "id": 22,
       "content": "皮肤记得所有拥抱的温度，哪怕头脑早已遗忘。",
       "enabled": true
@@ -472,7 +467,7 @@
     }
   ],
   "metadata": {
-    "total_count": 94,
+    "total_count": 93,
     "last_updated": "2026-08-16",
     "version": "5.0"
   }
