@@ -306,11 +306,6 @@
       "enabled": true
     },
     {
-      "id": 69,
-      "content": "冲突是两颗心在打扫各自的房间。",
-      "enabled": true
-    },
-    {
       "id": 70,
       "content": "你无法让所有人都喜欢你，正如风不能让所有树都弯腰。",
       "enabled": true
@@ -467,7 +462,7 @@
     }
   ],
   "metadata": {
-    "total_count": 93,
+    "total_count": 92,
     "last_updated": "2026-08-16",
     "version": "5.0"
   }
