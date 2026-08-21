@@ -281,11 +281,6 @@
       "enabled": true
     },
     {
-      "id": 63,
-      "content": "陪伴不是一直在身边，而是需要时你恰好在场。",
-      "enabled": true
-    },
-    {
       "id": 64,
       "content": "原谅不是遗忘，是把记忆放回它该在的位置。",
       "enabled": true
@@ -462,7 +457,7 @@
     }
   ],
   "metadata": {
-    "total_count": 92,
+    "total_count": 91,
     "last_updated": "2026-08-16",
     "version": "5.0"
   }
