@@ -251,11 +251,6 @@
       "enabled": true
     },
     {
-      "id": 57,
-      "content": "当你意识到自己在思考时，你已经超越了思考。",
-      "enabled": true
-    },
-    {
       "id": 58,
       "content": "注意力是你拥有的最稀缺的货币，请谨慎投资。",
       "enabled": true
@@ -457,7 +452,7 @@
     }
   ],
   "metadata": {
-    "total_count": 91,
+    "total_count": 90,
     "last_updated": "2026-08-16",
     "version": "5.0"
   }
