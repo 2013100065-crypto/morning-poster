@@ -121,11 +121,6 @@
       "enabled": true
     },
     {
-      "id": 30,
-      "content": "你的脊椎，是承载重量的同时保持笔直的诗。",
-      "enabled": true
-    },
-    {
       "id": 31,
       "content": "高处让人看见远方，低处让人看见细节。",
       "enabled": true
@@ -452,7 +447,7 @@
     }
   ],
   "metadata": {
-    "total_count": 90,
+    "total_count": 89,
     "last_updated": "2026-08-16",
     "version": "5.0"
   }
