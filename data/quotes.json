@@ -231,11 +231,6 @@
       "enabled": true
     },
     {
-      "id": 54,
-      "content": "内省不是审视自己，是温柔地陪自己坐一会儿。",
-      "enabled": true
-    },
-    {
       "id": 55,
       "content": "一念之间，可以是一整个宇宙的翻转。",
       "enabled": true
@@ -447,7 +442,7 @@
     }
   ],
   "metadata": {
-    "total_count": 89,
+    "total_count": 88,
     "last_updated": "2026-08-16",
     "version": "5.0"
   }
