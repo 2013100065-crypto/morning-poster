@@ -76,11 +76,6 @@
       "enabled": true
     },
     {
-      "id": 18,
-      "content": "等水烧开的那几分钟，可能是一天中最诚实的时光。",
-      "enabled": true
-    },
-    {
       "id": 19,
       "content": "清晨的第一口水，是身体对世界的第一次欢迎。",
       "enabled": true
@@ -442,7 +437,7 @@
     }
   ],
   "metadata": {
-    "total_count": 88,
+    "total_count": 87,
     "last_updated": "2026-08-16",
     "version": "5.0"
   }
