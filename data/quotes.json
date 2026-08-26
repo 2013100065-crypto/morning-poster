@@ -306,11 +306,6 @@
       "enabled": true
     },
     {
-      "id": 75,
-      "content": "黄昏是一天中最接近永恒的瞬间。",
-      "enabled": true
-    },
-    {
       "id": 76,
       "content": "春天不急着开花，它只是让雪松口。",
       "enabled": true
@@ -437,7 +432,7 @@
     }
   ],
   "metadata": {
-    "total_count": 87,
+    "total_count": 86,
     "last_updated": "2026-08-16",
     "version": "5.0"
   }
