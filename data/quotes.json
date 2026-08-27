@@ -366,11 +366,6 @@
       "enabled": true
     },
     {
-      "id": 88,
-      "content": "重复不是单调，是深度在打井。",
-      "enabled": true
-    },
-    {
       "id": 89,
       "content": "行动时的专注，比行动本身更接近自由。",
       "enabled": true
@@ -432,7 +427,7 @@
     }
   ],
   "metadata": {
-    "total_count": 86,
+    "total_count": 85,
     "last_updated": "2026-08-16",
     "version": "5.0"
   }
