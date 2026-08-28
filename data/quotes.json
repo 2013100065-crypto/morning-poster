@@ -151,11 +151,6 @@
       "enabled": true
     },
     {
-      "id": 39,
-      "content": "阴凉处不是光的失败，是光的另一种到达。",
-      "enabled": true
-    },
-    {
       "id": 40,
       "content": "地平线不是界限，是目光的邀请函。",
       "enabled": true
@@ -427,7 +422,7 @@
     }
   ],
   "metadata": {
-    "total_count": 85,
+    "total_count": 84,
     "last_updated": "2026-08-16",
     "version": "5.0"
   }
