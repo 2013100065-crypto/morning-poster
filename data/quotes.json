@@ -106,11 +106,6 @@
       "enabled": true
     },
     {
-      "id": 26,
-      "content": "你的手，是灵魂触碰世界的触角。",
-      "enabled": true
-    },
-    {
       "id": 28,
       "content": "呼吸是生命最谦卑的宣誓：我在，我正在。",
       "enabled": true
@@ -422,7 +417,7 @@
     }
   ],
   "metadata": {
-    "total_count": 84,
+    "total_count": 83,
     "last_updated": "2026-08-16",
     "version": "5.0"
   }
