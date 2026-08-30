@@ -331,11 +331,6 @@
       "enabled": true
     },
     {
-      "id": 83,
-      "content": "迟疑是智慧在路口系鞋带。",
-      "enabled": true
-    },
-    {
       "id": 84,
       "content": "一个暂停，让整个节奏有了呼吸的余地。",
       "enabled": true
@@ -417,7 +412,7 @@
     }
   ],
   "metadata": {
-    "total_count": 83,
+    "total_count": 82,
     "last_updated": "2026-08-16",
     "version": "5.0"
   }
