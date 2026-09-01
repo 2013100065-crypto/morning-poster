@@ -176,11 +176,6 @@
       "enabled": true
     },
     {
-      "id": 47,
-      "content": "说我懂了的人，可能刚刚关上那扇门。",
-      "enabled": true
-    },
-    {
       "id": 48,
       "content": "控制得越多，失去控制的速度越快。",
       "enabled": true
@@ -407,7 +402,7 @@
     }
   ],
   "metadata": {
-    "total_count": 81,
+    "total_count": 80,
     "last_updated": "2026-08-16",
     "version": "5.0"
   }
