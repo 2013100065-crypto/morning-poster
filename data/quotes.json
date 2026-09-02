@@ -256,11 +256,6 @@
       "enabled": true
     },
     {
-      "id": 68,
-      "content": "你给的，不一定是对方要的，这是关系中最难的课题。",
-      "enabled": true
-    },
-    {
       "id": 70,
       "content": "你无法让所有人都喜欢你，正如风不能让所有树都弯腰。",
       "enabled": true
@@ -402,7 +397,7 @@
     }
   ],
   "metadata": {
-    "total_count": 80,
+    "total_count": 79,
     "last_updated": "2026-08-16",
     "version": "5.0"
   }
