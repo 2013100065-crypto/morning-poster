@@ -286,11 +286,6 @@
       "enabled": true
     },
     {
-      "id": 77,
-      "content": "秋天的落叶不是在告别，是在练习如何轻盈地放下。",
-      "enabled": true
-    },
-    {
       "id": 78,
       "content": "雨季教会我们：等，也是一种行动。",
       "enabled": true
@@ -397,7 +392,7 @@
     }
   ],
   "metadata": {
-    "total_count": 79,
+    "total_count": 78,
     "last_updated": "2026-08-16",
     "version": "5.0"
   }
