@@ -151,11 +151,6 @@
       "enabled": true
     },
     {
-      "id": 42,
-      "content": "最大的秘密，常常写在最公开的地方。",
-      "enabled": true
-    },
-    {
       "id": 43,
       "content": "真正自由的人，甘愿被某种意义束缚。",
       "enabled": true
@@ -392,7 +387,7 @@
     }
   ],
   "metadata": {
-    "total_count": 78,
+    "total_count": 77,
     "last_updated": "2026-08-16",
     "version": "5.0"
   }
