@@ -26,11 +26,6 @@
       "enabled": true
     },
     {
-      "id": 8,
-      "content": "石头在溪水里变得光滑，不是被磨平，是被写上了柔软。",
-      "enabled": true
-    },
-    {
       "id": 9,
       "content": "海洋的深邃，在于它接纳所有河流的个性。",
       "enabled": true
@@ -387,7 +382,7 @@
     }
   ],
   "metadata": {
-    "total_count": 77,
+    "total_count": 76,
     "last_updated": "2026-08-16",
     "version": "5.0"
   }
