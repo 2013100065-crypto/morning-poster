@@ -1,11 +1,6 @@
 {
   "quotes": [
     {
-      "id": 1,
-      "content": "河流的弯曲，不是绕路，是它自己的节奏。",
-      "enabled": true
-    },
-    {
       "id": 2,
       "content": "火焰之所以向上，是因为它忘记了重力。",
       "enabled": true
@@ -382,7 +377,7 @@
     }
   ],
   "metadata": {
-    "total_count": 76,
+    "total_count": 75,
     "last_updated": "2026-08-16",
     "version": "5.0"
   }
