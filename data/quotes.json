@@ -86,11 +86,6 @@
       "enabled": true
     },
     {
-      "id": 25,
-      "content": "笑，是身体突然翻译出了灵魂的幽默。",
-      "enabled": true
-    },
-    {
       "id": 28,
       "content": "呼吸是生命最谦卑的宣誓：我在，我正在。",
       "enabled": true
@@ -377,7 +372,7 @@
     }
   ],
   "metadata": {
-    "total_count": 75,
+    "total_count": 74,
     "last_updated": "2026-08-16",
     "version": "5.0"
   }
