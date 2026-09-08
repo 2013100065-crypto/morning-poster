@@ -156,11 +156,6 @@
       "enabled": true
     },
     {
-      "id": 48,
-      "content": "控制得越多，失去控制的速度越快。",
-      "enabled": true
-    },
-    {
       "id": 49,
       "content": "孤独到极致，反而触到了万物相连的脉动。",
       "enabled": true
@@ -372,7 +367,7 @@
     }
   ],
   "metadata": {
-    "total_count": 74,
+    "total_count": 73,
     "last_updated": "2026-08-16",
     "version": "5.0"
   }
