@@ -176,11 +176,6 @@
       "enabled": true
     },
     {
-      "id": 53,
-      "content": "梦不是睡眠的叛徒，是意识在换一个频道。",
-      "enabled": true
-    },
-    {
       "id": 55,
       "content": "一念之间，可以是一整个宇宙的翻转。",
       "enabled": true
@@ -367,7 +362,7 @@
     }
   ],
   "metadata": {
-    "total_count": 73,
+    "total_count": 72,
     "last_updated": "2026-08-16",
     "version": "5.0"
   }
