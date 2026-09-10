@@ -166,11 +166,6 @@
       "enabled": true
     },
     {
-      "id": 51,
-      "content": "念头是天空的云，你既是天空也是看云的人。",
-      "enabled": true
-    },
-    {
       "id": 52,
       "content": "情绪不是洪水，是临时演员，你是导演。",
       "enabled": true
@@ -362,7 +357,7 @@
     }
   ],
   "metadata": {
-    "total_count": 72,
+    "total_count": 71,
     "last_updated": "2026-08-16",
     "version": "5.0"
   }
