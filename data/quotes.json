@@ -101,11 +101,6 @@
       "enabled": true
     },
     {
-      "id": 34,
-      "content": "台阶的价值在于被攀登，而非它本身的高度。",
-      "enabled": true
-    },
-    {
       "id": 35,
       "content": "密室不是囚禁，是让回声学会自处。",
       "enabled": true
@@ -357,7 +352,7 @@
     }
   ],
   "metadata": {
-    "total_count": 71,
+    "total_count": 70,
     "last_updated": "2026-08-16",
     "version": "5.0"
   }
