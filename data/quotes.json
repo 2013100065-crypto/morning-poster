@@ -11,11 +11,6 @@
       "enabled": true
     },
     {
-      "id": 6,
-      "content": "种子知道它要成为树，但它从不着急。",
-      "enabled": true
-    },
-    {
       "id": 7,
       "content": "山从不炫耀高度，它只是在那里。",
       "enabled": true
@@ -352,7 +347,7 @@
     }
   ],
   "metadata": {
-    "total_count": 70,
+    "total_count": 69,
     "last_updated": "2026-08-16",
     "version": "5.0"
   }
