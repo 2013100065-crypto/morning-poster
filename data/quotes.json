@@ -126,11 +126,6 @@
       "enabled": true
     },
     {
-      "id": 43,
-      "content": "真正自由的人，甘愿被某种意义束缚。",
-      "enabled": true
-    },
-    {
       "id": 44,
       "content": "最深的记忆，恰恰是那些你以为早已忘记的。",
       "enabled": true
@@ -347,7 +342,7 @@
     }
   ],
   "metadata": {
-    "total_count": 69,
+    "total_count": 68,
     "last_updated": "2026-08-16",
     "version": "5.0"
   }
