@@ -36,11 +36,6 @@
       "enabled": true
     },
     {
-      "id": 13,
-      "content": "睡前关灯的那一瞬，你把手里的世界交还给黑暗保管。",
-      "enabled": true
-    },
-    {
       "id": 14,
       "content": "你如何对待一粒米，就如何对待整个生命。",
       "enabled": true
@@ -337,7 +332,7 @@
     }
   ],
   "metadata": {
-    "total_count": 67,
+    "total_count": 66,
     "last_updated": "2026-08-16",
     "version": "5.0"
   }
