@@ -51,11 +51,6 @@
       "enabled": true
     },
     {
-      "id": 19,
-      "content": "清晨的第一口水，是身体对世界的第一次欢迎。",
-      "enabled": true
-    },
-    {
       "id": 20,
       "content": "日常不是平庸，是伟大藏身的地方。",
       "enabled": true
@@ -332,7 +327,7 @@
     }
   ],
   "metadata": {
-    "total_count": 66,
+    "total_count": 65,
     "last_updated": "2026-08-16",
     "version": "5.0"
   }
