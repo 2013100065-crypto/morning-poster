@@ -91,11 +91,6 @@
       "enabled": true
     },
     {
-      "id": 36,
-      "content": "角落，不是因为无路可走，而是因为可以退守。",
-      "enabled": true
-    },
-    {
       "id": 37,
       "content": "十字路口的真正含义：你永远比任何一条路都大。",
       "enabled": true
@@ -327,7 +322,7 @@
     }
   ],
   "metadata": {
-    "total_count": 65,
+    "total_count": 64,
     "last_updated": "2026-08-16",
     "version": "5.0"
   }
