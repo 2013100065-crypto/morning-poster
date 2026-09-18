@@ -226,11 +226,6 @@
       "enabled": true
     },
     {
-      "id": 79,
-      "content": "风从不解释自己为何转向，它只是继续吹。",
-      "enabled": true
-    },
-    {
       "id": 80,
       "content": "干旱不是水的缺席，是土地在练习忍耐。",
       "enabled": true
@@ -322,7 +317,7 @@
     }
   ],
   "metadata": {
-    "total_count": 64,
+    "total_count": 63,
     "last_updated": "2026-08-16",
     "version": "5.0"
   }
