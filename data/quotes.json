@@ -309,15 +309,10 @@
       "id": 99,
       "content": "灯芯燃烧自己，是为了让油显现它的光芒。",
       "enabled": true
-    },
-    {
-      "id": 100,
-      "content": "碗从不挑剔盛装什么，它的圆满在于接纳。",
-      "enabled": true
     }
   ],
   "metadata": {
-    "total_count": 63,
+    "total_count": 62,
     "last_updated": "2026-08-16",
     "version": "5.0"
   }
