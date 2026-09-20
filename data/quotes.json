@@ -116,11 +116,6 @@
       "enabled": true
     },
     {
-      "id": 45,
-      "content": "完美是一个陷阱，而完整是一条道路。",
-      "enabled": true
-    },
-    {
       "id": 46,
       "content": "得到，从学会失去开始。",
       "enabled": true
@@ -312,7 +307,7 @@
     }
   ],
   "metadata": {
-    "total_count": 62,
+    "total_count": 61,
     "last_updated": "2026-08-16",
     "version": "5.0"
   }
