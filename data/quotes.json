@@ -281,11 +281,6 @@
       "enabled": true
     },
     {
-      "id": 94,
-      "content": "一把伞在雨中才认识自己的使命。",
-      "enabled": true
-    },
-    {
       "id": 95,
       "content": "钟表制造时间的分寸，却不知时间本无尺寸。",
       "enabled": true
@@ -307,7 +302,7 @@
     }
   ],
   "metadata": {
-    "total_count": 61,
+    "total_count": 60,
     "last_updated": "2026-08-16",
     "version": "5.0"
   }
