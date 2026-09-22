@@ -66,11 +66,6 @@
       "enabled": true
     },
     {
-      "id": 24,
-      "content": "困倦是黑夜托你交付给梦的快递。",
-      "enabled": true
-    },
-    {
       "id": 28,
       "content": "呼吸是生命最谦卑的宣誓：我在，我正在。",
       "enabled": true
@@ -302,7 +297,7 @@
     }
   ],
   "metadata": {
-    "total_count": 60,
+    "total_count": 59,
     "last_updated": "2026-08-16",
     "version": "5.0"
   }
