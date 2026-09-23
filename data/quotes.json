@@ -246,11 +246,6 @@
       "enabled": true
     },
     {
-      "id": 87,
-      "content": "后退，有时是为了给前进一个更长的助跑。",
-      "enabled": true
-    },
-    {
       "id": 89,
       "content": "行动时的专注，比行动本身更接近自由。",
       "enabled": true
@@ -297,7 +292,7 @@
     }
   ],
   "metadata": {
-    "total_count": 59,
+    "total_count": 58,
     "last_updated": "2026-08-16",
     "version": "5.0"
   }
