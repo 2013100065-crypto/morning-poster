@@ -176,11 +176,6 @@
       "enabled": true
     },
     {
-      "id": 67,
-      "content": "最深的信任，是允许对方在你面前沉默。",
-      "enabled": true
-    },
-    {
       "id": 70,
       "content": "你无法让所有人都喜欢你，正如风不能让所有树都弯腰。",
       "enabled": true
@@ -292,7 +287,7 @@
     }
   ],
   "metadata": {
-    "total_count": 58,
+    "total_count": 57,
     "last_updated": "2026-08-16",
     "version": "5.0"
   }
