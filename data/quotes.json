@@ -236,11 +236,6 @@
       "enabled": true
     },
     {
-      "id": 86,
-      "content": "最快的抵达，有时是停下来看清方向。",
-      "enabled": true
-    },
-    {
       "id": 89,
       "content": "行动时的专注，比行动本身更接近自由。",
       "enabled": true
@@ -287,7 +282,7 @@
     }
   ],
   "metadata": {
-    "total_count": 57,
+    "total_count": 56,
     "last_updated": "2026-08-16",
     "version": "5.0"
   }
