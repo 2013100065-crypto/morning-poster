@@ -21,11 +21,6 @@
       "enabled": true
     },
     {
-      "id": 10,
-      "content": "根向下扎得越深，枝叶越敢触摸天空。",
-      "enabled": true
-    },
-    {
       "id": 11,
       "content": "一日三餐，是生命最朴素的祭坛。",
       "enabled": true
@@ -282,7 +277,7 @@
     }
   ],
   "metadata": {
-    "total_count": 56,
+    "total_count": 55,
     "last_updated": "2026-08-16",
     "version": "5.0"
   }
