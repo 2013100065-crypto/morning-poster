@@ -251,11 +251,6 @@
       "enabled": true
     },
     {
-      "id": 93,
-      "content": "窗是墙壁学会呼吸的地方。",
-      "enabled": true
-    },
-    {
       "id": 95,
       "content": "钟表制造时间的分寸，却不知时间本无尺寸。",
       "enabled": true
@@ -277,7 +272,7 @@
     }
   ],
   "metadata": {
-    "total_count": 55,
+    "total_count": 54,
     "last_updated": "2026-08-16",
     "version": "5.0"
   }
