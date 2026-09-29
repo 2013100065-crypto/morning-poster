@@ -116,11 +116,6 @@
       "enabled": true
     },
     {
-      "id": 52,
-      "content": "情绪不是洪水，是临时演员，你是导演。",
-      "enabled": true
-    },
-    {
       "id": 55,
       "content": "一念之间，可以是一整个宇宙的翻转。",
       "enabled": true
@@ -267,7 +262,7 @@
     }
   ],
   "metadata": {
-    "total_count": 53,
+    "total_count": 52,
     "last_updated": "2026-08-16",
     "version": "5.0"
   }
