@@ -61,11 +61,6 @@
       "enabled": true
     },
     {
-      "id": 28,
-      "content": "呼吸是生命最谦卑的宣誓：我在，我正在。",
-      "enabled": true
-    },
-    {
       "id": 31,
       "content": "高处让人看见远方，低处让人看见细节。",
       "enabled": true
@@ -262,7 +257,7 @@
     }
   ],
   "metadata": {
-    "total_count": 52,
+    "total_count": 51,
     "last_updated": "2026-08-16",
     "version": "5.0"
   }
