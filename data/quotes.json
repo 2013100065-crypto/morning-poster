@@ -46,11 +46,6 @@
       "enabled": true
     },
     {
-      "id": 23,
-      "content": "心跳不以你的意志为转移，它提醒你：有一种节奏比思想更古老。",
-      "enabled": true
-    },
-    {
       "id": 31,
       "content": "高处让人看见远方，低处让人看见细节。",
       "enabled": true
@@ -242,7 +237,7 @@
     }
   ],
   "metadata": {
-    "total_count": 48,
+    "total_count": 47,
     "last_updated": "2026-08-16",
     "version": "5.0"
   }
