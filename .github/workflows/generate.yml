@@ -53,9 +53,9 @@ jobs:
         UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
       run: |
         if [ "${{ github.event_name }}" = "schedule" ]; then
-          python generate.py
+          TZ=Asia/Shanghai python generate.py
         else
-          python generate.py --today
+          TZ=Asia/Shanghai python generate.py --today
         fi
 
     - name: 提交变更（语录库 + 生成图片）
