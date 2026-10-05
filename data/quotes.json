@@ -111,11 +111,6 @@
       "enabled": true
     },
     {
-      "id": 60,
-      "content": "清醒的最高形式，是意识到你正在梦中。",
-      "enabled": true
-    },
-    {
       "id": 61,
       "content": "你们是两盏灯，不必重叠，但彼此照亮。",
       "enabled": true
@@ -237,7 +232,7 @@
     }
   ],
   "metadata": {
-    "total_count": 47,
+    "total_count": 46,
     "last_updated": "2026-08-16",
     "version": "5.0"
   }
