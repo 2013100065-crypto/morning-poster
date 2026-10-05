@@ -156,11 +156,6 @@
       "enabled": true
     },
     {
-      "id": 76,
-      "content": "春天不急着开花，它只是让雪松口。",
-      "enabled": true
-    },
-    {
       "id": 78,
       "content": "雨季教会我们：等，也是一种行动。",
       "enabled": true
@@ -227,7 +222,7 @@
     }
   ],
   "metadata": {
-    "total_count": 45,
+    "total_count": 44,
     "last_updated": "2026-08-16",
     "version": "5.0"
   }
