@@ -181,11 +181,6 @@
       "enabled": true
     },
     {
-      "id": 84,
-      "content": "一个暂停，让整个节奏有了呼吸的余地。",
-      "enabled": true
-    },
-    {
       "id": 85,
       "content": "勇气不是不颤抖，而是颤抖着依然迈步。",
       "enabled": true
@@ -232,7 +227,7 @@
     }
   ],
   "metadata": {
-    "total_count": 46,
+    "total_count": 45,
     "last_updated": "2026-08-16",
     "version": "5.0"
   }
