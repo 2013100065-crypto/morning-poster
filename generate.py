@@ -425,10 +425,14 @@ def main():
     print("=" * 50)
     
     # 判断使用明天还是当天日期
-    use_tomorrow = "--today" not in sys.argv
+    # 手动触发（带 --today）：生成当天
+    # 定时任务：傍晚或白天跑 -> 生成次日；被 GitHub 拖到凌晨（12 点前）才跑 -> 生成当天
     now = datetime.now()
-    if use_tomorrow:
-        from datetime import timedelta
+    from datetime import timedelta
+    if "--today" in sys.argv:
+        use_tomorrow = False
+    else:
+        use_tomorrow = now.hour >= 12
     target_date = now + timedelta(days=1) if use_tomorrow else now
 
     # 1. 获取数据
