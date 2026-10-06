@@ -1,11 +1,6 @@
 {
   "quotes": [
     {
-      "id": 2,
-      "content": "火焰之所以向上，是因为它忘记了重力。",
-      "enabled": true
-    },
-    {
       "id": 4,
       "content": "鸟的飞翔不是离开大地，而是用另一种方式拥抱它。",
       "enabled": true
@@ -222,7 +217,7 @@
     }
   ],
   "metadata": {
-    "total_count": 44,
+    "total_count": 43,
     "last_updated": "2026-08-16",
     "version": "5.0"
   }
