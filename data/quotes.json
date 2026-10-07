@@ -6,11 +6,6 @@
       "enabled": true
     },
     {
-      "id": 9,
-      "content": "海洋的深邃，在于它接纳所有河流的个性。",
-      "enabled": true
-    },
-    {
       "id": 11,
       "content": "一日三餐，是生命最朴素的祭坛。",
       "enabled": true
@@ -212,7 +207,7 @@
     }
   ],
   "metadata": {
-    "total_count": 42,
+    "total_count": 41,
     "last_updated": "2026-08-16",
     "version": "5.0"
   }
