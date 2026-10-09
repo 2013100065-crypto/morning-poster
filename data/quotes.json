@@ -186,11 +186,6 @@
       "enabled": true
     },
     {
-      "id": 97,
-      "content": "门的意义，不只是阻隔，更是赋予进入以仪式感。",
-      "enabled": true
-    },
-    {
       "id": 98,
       "content": "一把梯子，永远指向它自身之外的方向。",
       "enabled": true
@@ -202,7 +197,7 @@
     }
   ],
   "metadata": {
-    "total_count": 40,
+    "total_count": 39,
     "last_updated": "2026-08-16",
     "version": "5.0"
   }
