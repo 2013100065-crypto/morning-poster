@@ -111,11 +111,6 @@
       "enabled": true
     },
     {
-      "id": 70,
-      "content": "你无法让所有人都喜欢你，正如风不能让所有树都弯腰。",
-      "enabled": true
-    },
-    {
       "id": 71,
       "content": "夏天教会我们：热情需要阴影的平衡。",
       "enabled": true
@@ -197,7 +192,7 @@
     }
   ],
   "metadata": {
-    "total_count": 39,
+    "total_count": 38,
     "last_updated": "2026-08-16",
     "version": "5.0"
   }
