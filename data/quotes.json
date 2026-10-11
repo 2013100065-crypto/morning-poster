@@ -21,11 +21,6 @@
       "enabled": true
     },
     {
-      "id": 16,
-      "content": "泡茶时，耐心比水温更重要。",
-      "enabled": true
-    },
-    {
       "id": 17,
       "content": "整理房间，也是在整理内心的秩序。",
       "enabled": true
@@ -192,7 +187,7 @@
     }
   ],
   "metadata": {
-    "total_count": 38,
+    "total_count": 37,
     "last_updated": "2026-08-16",
     "version": "5.0"
   }
