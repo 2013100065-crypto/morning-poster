@@ -161,11 +161,6 @@
       "enabled": true
     },
     {
-      "id": 91,
-      "content": "杯子的价值，在于它空着的那部分。",
-      "enabled": true
-    },
-    {
       "id": 92,
       "content": "桥，证明了隔与通可以同时存在。",
       "enabled": true
@@ -187,7 +182,7 @@
     }
   ],
   "metadata": {
-    "total_count": 37,
+    "total_count": 36,
     "last_updated": "2026-08-16",
     "version": "5.0"
   }
