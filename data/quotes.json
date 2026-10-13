@@ -136,11 +136,6 @@
       "enabled": true
     },
     {
-      "id": 81,
-      "content": "行走的意义不在于移动，而在于让风景翻页。",
-      "enabled": true
-    },
-    {
       "id": 82,
       "content": "静止是行动的隐秘心脏。",
       "enabled": true
@@ -182,7 +177,7 @@
     }
   ],
   "metadata": {
-    "total_count": 36,
+    "total_count": 35,
     "last_updated": "2026-08-16",
     "version": "5.0"
   }
