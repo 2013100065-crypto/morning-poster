@@ -156,11 +156,6 @@
       "enabled": true
     },
     {
-      "id": 92,
-      "content": "桥，证明了隔与通可以同时存在。",
-      "enabled": true
-    },
-    {
       "id": 95,
       "content": "钟表制造时间的分寸，却不知时间本无尺寸。",
       "enabled": true
@@ -177,7 +172,7 @@
     }
   ],
   "metadata": {
-    "total_count": 35,
+    "total_count": 34,
     "last_updated": "2026-08-16",
     "version": "5.0"
   }
