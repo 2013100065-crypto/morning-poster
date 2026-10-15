@@ -36,11 +36,6 @@
       "enabled": true
     },
     {
-      "id": 35,
-      "content": "密室不是囚禁，是让回声学会自处。",
-      "enabled": true
-    },
-    {
       "id": 40,
       "content": "地平线不是界限，是目光的邀请函。",
       "enabled": true
@@ -172,7 +167,7 @@
     }
   ],
   "metadata": {
-    "total_count": 34,
+    "total_count": 33,
     "last_updated": "2026-08-16",
     "version": "5.0"
   }
