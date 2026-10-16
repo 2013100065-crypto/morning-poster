@@ -146,11 +146,6 @@
       "enabled": true
     },
     {
-      "id": 90,
-      "content": "终点不是行动的完成，是行动换了一种身份继续。",
-      "enabled": true
-    },
-    {
       "id": 95,
       "content": "钟表制造时间的分寸，却不知时间本无尺寸。",
       "enabled": true
@@ -167,7 +162,7 @@
     }
   ],
   "metadata": {
-    "total_count": 33,
+    "total_count": 32,
     "last_updated": "2026-08-16",
     "version": "5.0"
   }
