@@ -116,11 +116,6 @@
       "enabled": true
     },
     {
-      "id": 74,
-      "content": "雾，让熟悉的世界重新陌生，好让你重新认识它。",
-      "enabled": true
-    },
-    {
       "id": 78,
       "content": "雨季教会我们：等，也是一种行动。",
       "enabled": true
@@ -162,7 +157,7 @@
     }
   ],
   "metadata": {
-    "total_count": 32,
+    "total_count": 31,
     "last_updated": "2026-08-16",
     "version": "5.0"
   }
