@@ -21,11 +21,6 @@
       "enabled": true
     },
     {
-      "id": 17,
-      "content": "整理房间，也是在整理内心的秩序。",
-      "enabled": true
-    },
-    {
       "id": 31,
       "content": "高处让人看见远方，低处让人看见细节。",
       "enabled": true
@@ -157,7 +152,7 @@
     }
   ],
   "metadata": {
-    "total_count": 31,
+    "total_count": 30,
     "last_updated": "2026-08-16",
     "version": "5.0"
   }
