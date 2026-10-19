@@ -56,11 +56,6 @@
       "enabled": true
     },
     {
-      "id": 55,
-      "content": "一念之间，可以是一整个宇宙的翻转。",
-      "enabled": true
-    },
-    {
       "id": 56,
       "content": "觉知是一面不擦也干净的镜子。",
       "enabled": true
@@ -152,7 +147,7 @@
     }
   ],
   "metadata": {
-    "total_count": 30,
+    "total_count": 29,
     "last_updated": "2026-08-16",
     "version": "5.0"
   }
