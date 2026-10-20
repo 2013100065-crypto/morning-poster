@@ -136,18 +136,13 @@
       "enabled": true
     },
     {
-      "id": 98,
-      "content": "一把梯子，永远指向它自身之外的方向。",
-      "enabled": true
-    },
-    {
       "id": 99,
       "content": "灯芯燃烧自己，是为了让油显现它的光芒。",
       "enabled": true
     }
   ],
   "metadata": {
-    "total_count": 29,
+    "total_count": 28,
     "last_updated": "2026-08-16",
     "version": "5.0"
   }
