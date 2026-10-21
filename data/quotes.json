@@ -66,11 +66,6 @@
       "enabled": true
     },
     {
-      "id": 59,
-      "content": "预感不是迷信，是潜意识先于你抵达。",
-      "enabled": true
-    },
-    {
       "id": 61,
       "content": "你们是两盏灯，不必重叠，但彼此照亮。",
       "enabled": true
@@ -142,7 +137,7 @@
     }
   ],
   "metadata": {
-    "total_count": 28,
+    "total_count": 27,
     "last_updated": "2026-08-16",
     "version": "5.0"
   }
