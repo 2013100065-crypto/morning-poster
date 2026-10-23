@@ -61,11 +61,6 @@
       "enabled": true
     },
     {
-      "id": 61,
-      "content": "你们是两盏灯，不必重叠，但彼此照亮。",
-      "enabled": true
-    },
-    {
       "id": 62,
       "content": "爱不是寻找完美的人，而是学会用完美的眼光看一个不完美的人。",
       "enabled": true
@@ -132,7 +127,7 @@
     }
   ],
   "metadata": {
-    "total_count": 26,
+    "total_count": 25,
     "last_updated": "2026-08-16",
     "version": "5.0"
   }
