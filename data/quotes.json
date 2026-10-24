@@ -51,11 +51,6 @@
       "enabled": true
     },
     {
-      "id": 56,
-      "content": "觉知是一面不擦也干净的镜子。",
-      "enabled": true
-    },
-    {
       "id": 58,
       "content": "注意力是你拥有的最稀缺的货币，请谨慎投资。",
       "enabled": true
@@ -127,7 +122,7 @@
     }
   ],
   "metadata": {
-    "total_count": 25,
+    "total_count": 24,
     "last_updated": "2026-08-16",
     "version": "5.0"
   }
