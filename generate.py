@@ -45,6 +45,10 @@ WEWORK_WEBHOOK_URL = os.environ.get("WEWORK_WEBHOOK_URL", "")
 # Unsplash 关键词 - 纯自然风景，避免城市建筑
 UNSPLASH_KEYWORDS = ["nature", "forest", "mountain", "ocean", "lake", "garden", "sunrise", "sunset", "meadow", "waterfall", "beach", "flowers", "trees", "river", "sky", "clouds"]
 
+# 精选竖版风景图（picsum 固定 ID，人工逐张看过：只留自然风景，避开人物/静物/街景/黑白）
+CURATED_BG_IDS = [11, 15, 16, 17, 28, 29, 33, 37, 54, 66, 82, 87, 103, 106, 110,
+                  190, 235, 280, 295, 385, 450, 465, 480, 525, 570, 600, 640, 700]
+
 # ============================================================
 # 语录库
 # ============================================================
@@ -161,9 +165,10 @@ def fetch_unsplash_image():
         except Exception as e:
             print(f"  Lorem Flickr 失败: {e}")
         
-        # 备用方式2: 使用 picsum.photos（随机图片，竖版）
+        # 备用方式2: 精选风景图集（固定 ID，避免随机抓到人物/静物/街景这类不适合早安图的画面）
         try:
-            picsum_url = f"https://picsum.photos/{OUTPUT_WIDTH}/{OUTPUT_HEIGHT}"
+            pid = random.choice(CURATED_BG_IDS)
+            picsum_url = f"https://picsum.photos/id/{pid}/{OUTPUT_WIDTH}/{OUTPUT_HEIGHT}"
             resp = requests.get(picsum_url, timeout=30, allow_redirects=True)
             if resp.status_code == 200 and len(resp.content) > 5000:
                 img = Image.open(BytesIO(resp.content))
@@ -173,10 +178,12 @@ def fetch_unsplash_image():
                 if is_grayscale(img):
                     print(f"  图片为黑白，重新获取...")
                     continue
-                print(f"  Picsum 获取成功: {img.size}")
+                print(f"  精选风景图获取成功 (id={pid}): {img.size}")
                 return img
+            else:
+                print(f"  精选图 id={pid} 返回 {resp.status_code}，换一张...")
         except Exception as e:
-            print(f"  Picsum 失败: {e}")
+            print(f"  精选风景图失败: {e}")
     
     # 所有尝试失败，使用纯色渐变背景
     print("  所有尝试失败，使用渐变背景")
