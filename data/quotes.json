@@ -46,11 +46,6 @@
       "enabled": true
     },
     {
-      "id": 50,
-      "content": "当你不再追问为什么，答案反而会走来。",
-      "enabled": true
-    },
-    {
       "id": 58,
       "content": "注意力是你拥有的最稀缺的货币，请谨慎投资。",
       "enabled": true
@@ -122,7 +117,7 @@
     }
   ],
   "metadata": {
-    "total_count": 24,
+    "total_count": 23,
     "last_updated": "2026-08-16",
     "version": "5.0"
   }
