@@ -46,8 +46,7 @@ WEWORK_WEBHOOK_URL = os.environ.get("WEWORK_WEBHOOK_URL", "")
 UNSPLASH_KEYWORDS = ["nature", "forest", "mountain", "ocean", "lake", "garden", "sunrise", "sunset", "meadow", "waterfall", "beach", "flowers", "trees", "river", "sky", "clouds"]
 
 # 精选竖版风景图（picsum 固定 ID，人工逐张看过：只留自然风景，避开人物/静物/街景/黑白）
-CURATED_BG_IDS = [11, 15, 16, 17, 28, 29, 37, 54, 66, 82, 106, 110, 190,
-                  235, 295, 385, 450, 465, 480, 525, 570, 600, 640, 700]
+CURATED_BG_IDS = [11, 15, 17, 29, 82, 110, 450, 465, 480, 640]
 
 # ============================================================
 # 语录库
