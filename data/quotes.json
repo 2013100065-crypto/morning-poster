@@ -104,15 +104,10 @@
       "id": 89,
       "content": "行动时的专注，比行动本身更接近自由。",
       "enabled": true
-    },
-    {
-      "id": 99,
-      "content": "灯芯燃烧自己，是为了让油显现它的光芒。",
-      "enabled": true
     }
   ],
   "metadata": {
-    "total_count": 22,
+    "total_count": 21,
     "last_updated": "2026-08-16",
     "version": "5.0"
   }
