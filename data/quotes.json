@@ -31,11 +31,6 @@
       "enabled": true
     },
     {
-      "id": 41,
-      "content": "最坚固的，往往是最柔软的东西——比如水。",
-      "enabled": true
-    },
-    {
       "id": 46,
       "content": "得到，从学会失去开始。",
       "enabled": true
@@ -107,7 +102,7 @@
     }
   ],
   "metadata": {
-    "total_count": 21,
+    "total_count": 20,
     "last_updated": "2026-08-16",
     "version": "5.0"
   }
