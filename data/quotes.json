@@ -56,11 +56,6 @@
       "enabled": true
     },
     {
-      "id": 65,
-      "content": "你对待弱者的态度，是你灵魂的签名。",
-      "enabled": true
-    },
-    {
       "id": 71,
       "content": "夏天教会我们：热情需要阴影的平衡。",
       "enabled": true
@@ -102,7 +97,7 @@
     }
   ],
   "metadata": {
-    "total_count": 20,
+    "total_count": 19,
     "last_updated": "2026-08-16",
     "version": "5.0"
   }
