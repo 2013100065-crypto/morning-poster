@@ -81,11 +81,6 @@
       "enabled": true
     },
     {
-      "id": 82,
-      "content": "静止是行动的隐秘心脏。",
-      "enabled": true
-    },
-    {
       "id": 85,
       "content": "勇气不是不颤抖，而是颤抖着依然迈步。",
       "enabled": true
@@ -97,7 +92,7 @@
     }
   ],
   "metadata": {
-    "total_count": 19,
+    "total_count": 18,
     "last_updated": "2026-08-16",
     "version": "5.0"
   }
