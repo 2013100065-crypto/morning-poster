@@ -56,11 +56,6 @@
       "enabled": true
     },
     {
-      "id": 71,
-      "content": "夏天教会我们：热情需要阴影的平衡。",
-      "enabled": true
-    },
-    {
       "id": 72,
       "content": "冬天不是死寂，是大地在打一个漫长的盹儿。",
       "enabled": true
@@ -92,7 +87,7 @@
     }
   ],
   "metadata": {
-    "total_count": 18,
+    "total_count": 17,
     "last_updated": "2026-08-16",
     "version": "5.0"
   }
