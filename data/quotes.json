@@ -36,11 +36,6 @@
       "enabled": true
     },
     {
-      "id": 49,
-      "content": "孤独到极致，反而触到了万物相连的脉动。",
-      "enabled": true
-    },
-    {
       "id": 58,
       "content": "注意力是你拥有的最稀缺的货币，请谨慎投资。",
       "enabled": true
@@ -87,7 +82,7 @@
     }
   ],
   "metadata": {
-    "total_count": 17,
+    "total_count": 16,
     "last_updated": "2026-08-16",
     "version": "5.0"
   }
