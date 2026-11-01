@@ -69,15 +69,10 @@
       "id": 85,
       "content": "勇气不是不颤抖，而是颤抖着依然迈步。",
       "enabled": true
-    },
-    {
-      "id": 89,
-      "content": "行动时的专注，比行动本身更接近自由。",
-      "enabled": true
     }
   ],
   "metadata": {
-    "total_count": 15,
+    "total_count": 14,
     "last_updated": "2026-08-16",
     "version": "5.0"
   }
