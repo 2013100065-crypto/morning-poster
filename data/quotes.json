@@ -21,11 +21,6 @@
       "enabled": true
     },
     {
-      "id": 31,
-      "content": "高处让人看见远方，低处让人看见细节。",
-      "enabled": true
-    },
-    {
       "id": 46,
       "content": "得到，从学会失去开始。",
       "enabled": true
@@ -72,7 +67,7 @@
     }
   ],
   "metadata": {
-    "total_count": 14,
+    "total_count": 13,
     "last_updated": "2026-08-16",
     "version": "5.0"
   }
