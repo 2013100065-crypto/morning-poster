@@ -31,11 +31,6 @@
       "enabled": true
     },
     {
-      "id": 62,
-      "content": "爱不是寻找完美的人，而是学会用完美的眼光看一个不完美的人。",
-      "enabled": true
-    },
-    {
       "id": 64,
       "content": "原谅不是遗忘，是把记忆放回它该在的位置。",
       "enabled": true
@@ -67,7 +62,7 @@
     }
   ],
   "metadata": {
-    "total_count": 13,
+    "total_count": 12,
     "last_updated": "2026-08-16",
     "version": "5.0"
   }
