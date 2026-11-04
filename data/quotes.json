@@ -51,18 +51,13 @@
       "enabled": true
     },
     {
-      "id": 80,
-      "content": "干旱不是水的缺席，是土地在练习忍耐。",
-      "enabled": true
-    },
-    {
       "id": 85,
       "content": "勇气不是不颤抖，而是颤抖着依然迈步。",
       "enabled": true
     }
   ],
   "metadata": {
-    "total_count": 12,
+    "total_count": 11,
     "last_updated": "2026-08-16",
     "version": "5.0"
   }
